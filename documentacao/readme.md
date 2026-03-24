@@ -26,6 +26,7 @@ Esses arquivos fazem parte de um merge preliminar, anterior ao pipeline atual. P
 - `../prata/pre_merge/`: CSVs processados antes dos merges principais.
 - `../prata/processamento/`: tabelas consolidadas versionadas no nome do arquivo.
 - `../prata/pre_merge/indicadores_seguranca_publica_municipal/`: CSVs exportados por UF a partir da planilha de seguranca publica.
+- `../prata/pre_merge/regic_2018/`: CSVs da REGIC 2018 preparados para uso posterior em merges.
 - `../prata/pre_merge/sinisa_esgoto_base_municipal/`: CSVs processados do SINISA, fora do versionamento.
 - `../ouro/`: camada reservada para uso futuro.
 
@@ -54,7 +55,9 @@ Hoje a sequencia recomendada e:
 11. executar `scripts/merge_tabela9584_v6.py` para incorporar a tabela 9584 percentual e gerar a `v7`;
 12. executar `scripts/merge_tabela9584_absoluta_v7.py` para incorporar a tabela 9584 em valores absolutos e gerar a `v8`;
 13. executar `scripts/merge_tabela9584_iluminacao_v8.py` para incorporar a tabela 9584 de iluminacao e gerar a `v9`;
-14. executar `scripts/remove_coluna_nao_existe_v9.py` para retirar a coluna `Não existe` e gerar a `v10`.
+14. executar `scripts/remove_coluna_nao_existe_v9.py` para retirar a coluna `Não existe` e gerar a `v10`;
+15. executar `scripts/merge_regic_v10.py` para incorporar as variaveis `VAR56` a `VAR66` da REGIC 2018 e gerar a `v11`;
+16. executar `scripts/normaliza_regic_v11.py` para normalizar `VAR56` a `VAR66` entre `0` e `1` e gerar a `v12`.
 
 ## Etapa 0: Script Generico
 
@@ -195,6 +198,48 @@ Se a ideia for reconstruir a base processada do zero:
 2. rodar `scripts/merge_utilizado_tabela9582.py`;
 3. rodar `scripts/merge_utilizado_7138_receita.py`;
 4. rodar `scripts/merge_utilizado_fundeb_transferencias.py`.
+
+## Pre-merge Auxiliar: REGIC 2018
+
+Script: `scripts/processa_regic_2018_pre_merge.py`
+
+Arquivos de origem em `../bronze/`:
+
+- `REGIC2018_Arranjos_Populacionais_v2 (1).xlsx`
+- `REGIC2018_Cidades_v2 (1).xlsx`
+
+Saidas preparadas em `../prata/pre_merge/regic_2018/`:
+
+- `REGIC2018_Arranjos_Populacionais_v2 (1).csv`
+- `REGIC2018_Cidades_v2 (1).csv`
+
+Processamento realizado:
+
+1. conversao manual dos dois arquivos `.xlsx` para `.csv`;
+2. leitura do CSV de arranjos populacionais e do CSV de cidades;
+3. identificacao dos municipios que aparecem em `Arranjos Populacionais`, mas nao possuem linha propria em `Cidades`;
+4. localizacao, no CSV de cidades, da linha do arranjo correspondente por `Código do AP`;
+5. replicacao de todas as colunas do arranjo para cada municipio integrante ausente;
+6. substituicao dos campos de identificacao do arranjo pelos campos do municipio integrante:
+   `COD_CIDADE`, `NOME_CIDADE`, `COD_UF` e `UF`.
+
+Regra aplicada:
+
+- quando um municipio integrante nao existe no arquivo `Cidades`, ele herda os valores das variaveis do arranjo populacional ao qual pertence;
+- o relacionamento e feito por `Código do AP` no arquivo de arranjos contra `COD_CIDADE` no arquivo de cidades;
+- a linha adicionada mantém os indicadores do arranjo, mas passa a representar o municipio integrante.
+
+Resultado registrado:
+
+- 671 municipios foram adicionados ao CSV de cidades;
+- o arquivo `REGIC2018_Cidades_v2 (1).csv` passou de 4899 para 5570 linhas;
+- ao final do processamento, todos os municipios presentes no arquivo de arranjos passaram a ter correspondencia no arquivo de cidades.
+
+Execucao:
+
+```bash
+python3 scripts/processa_regic_2018_pre_merge.py
+```
 
 ## Etapa 4: SINISA Esgoto Base Municipal
 
@@ -471,6 +516,93 @@ Execucao:
 python3 scripts/remove_coluna_nao_existe_v9.py
 ```
 
+## Etapa 14: Merge Da V10 Com A REGIC 2018
+
+Script: `scripts/merge_regic_v10.py`
+
+Objetivo:
+
+- ler `../prata/processamento/merge_v10.csv`;
+- ler `../prata/pre_merge/regic_2018/REGIC2018_Cidades_v2 (1).csv`;
+- fazer merge via codigo do municipio;
+- incorporar apenas as variaveis `VAR56` a `VAR66`;
+- gerar `../prata/processamento/merge_v11.csv`.
+
+Como o merge e feito:
+
+- a base `v10` usa a coluna `Cód.` como chave;
+- a base REGIC usa a coluna `COD_CIDADE` como chave;
+- os codigos sao normalizados antes do merge;
+- apenas as colunas `VAR56`, `VAR57`, `VAR58`, `VAR59`, `VAR60`, `VAR61`, `VAR62`, `VAR63`, `VAR64`, `VAR65` e `VAR66` sao selecionadas na REGIC antes da juncao;
+- a saida preserva a estrutura da `v10` e adiciona somente essas 11 variaveis ao final.
+
+Colunas incorporadas:
+
+- `VAR56`
+- `VAR57`
+- `VAR58`
+- `VAR59`
+- `VAR60`
+- `VAR61`
+- `VAR62`
+- `VAR63`
+- `VAR64`
+- `VAR65`
+- `VAR66`
+
+Resultado registrado:
+
+- a `merge_v11.csv` foi gerada com 5570 linhas;
+- houve correspondencia para todos os municipios da `v10`.
+
+Execucao:
+
+```bash
+python3 scripts/merge_regic_v10.py
+```
+
+## Etapa 15: Normalizacao Das Variaveis REGIC Na V11
+
+Script: `scripts/normaliza_regic_v11.py`
+
+Objetivo:
+
+- ler `../prata/processamento/merge_v11.csv`;
+- normalizar as colunas `VAR56` a `VAR66` para a faixa `0` a `1`;
+- gerar `../prata/processamento/merge_v12.csv`.
+
+Como a normalizacao e feita:
+
+- cada coluna e tratada individualmente;
+- os valores sao convertidos para numericos antes do processamento;
+- a transformacao usa normalizacao min-max, com a formula `(valor - minimo) / (maximo - minimo)`;
+- se uma coluna tiver amplitude `0`, todos os valores dessa coluna passam a ser `0`.
+
+Colunas normalizadas:
+
+- `VAR56`
+- `VAR57`
+- `VAR58`
+- `VAR59`
+- `VAR60`
+- `VAR61`
+- `VAR62`
+- `VAR63`
+- `VAR64`
+- `VAR65`
+- `VAR66`
+
+Resultado registrado:
+
+- a `merge_v12.csv` foi gerada com 5570 linhas;
+- todas as colunas `VAR56` a `VAR66` passaram a ter minimo `0` e maximo `1`.
+
+Execucao:
+
+```bash
+python3 scripts/normaliza_regic_v11.py
+```
+
 ## Saidas Da Jornada
 
 Ao final das etapas atuais, os principais arquivos processados sao:
@@ -485,8 +617,11 @@ Ao final das etapas atuais, os principais arquivos processados sao:
 - `../prata/processamento/merge_v8.csv`
 - `../prata/processamento/merge_v9.csv`
 - `../prata/processamento/merge_v10.csv`
+- `../prata/processamento/merge_v11.csv`
+- `../prata/processamento/merge_v12.csv`
 - `../prata/pre_merge/homicidios_municipais_2022.csv`
 - `../prata/pre_merge/indicadores_seguranca_publica_municipal/*.csv`
+- `../prata/pre_merge/regic_2018/*.csv`
 - `../prata/pre_merge/sinisa_esgoto_base_municipal/*.csv`
 
 ## Regra Para Proximos Scripts
@@ -511,6 +646,7 @@ Quando um novo script de merge for criado, acrescente aqui:
 - `scripts/merge_utilizado_fundeb_transferencias.py`
 - `scripts/processa_sinisa_esgoto_base_municipal.py`
 - `scripts/processa_indicadores_seguranca_publica_municipal.py`
+- `scripts/processa_regic_2018_pre_merge.py`
 - `scripts/agrega_homicidios_municipais_2022.py`
 - `scripts/merge_sinisa_atendimento.py`
 - `scripts/merge_homicidios_v4.py`
@@ -519,3 +655,5 @@ Quando um novo script de merge for criado, acrescente aqui:
 - `scripts/merge_tabela9584_absoluta_v7.py`
 - `scripts/merge_tabela9584_iluminacao_v8.py`
 - `scripts/remove_coluna_nao_existe_v9.py`
+- `scripts/merge_regic_v10.py`
+- `scripts/normaliza_regic_v11.py`
