@@ -603,6 +603,167 @@ Execucao:
 python3 scripts/normaliza_regic_v11.py
 ```
 
+## Etapa 16: Merge Da Tabela 5882 (Plano Diretor) Na V12
+
+Script: `scripts/merge_tabela5882_plano_diretor_v13.py`
+
+Objetivo:
+
+- ler `../prata/processamento/merge_v12.csv`;
+- ler `../bronze/tabela5882.csv`;
+- fazer merge via codigo do municipio;
+- incorporar o indicador de existencia de plano diretor;
+- gerar `../prata/processamento/merge_v13.csv`.
+
+Como o merge e feito:
+
+- a base `v12` usa a coluna `Cód.` como chave;
+- a tabela 5882 tambem usa a coluna `Cód.` como chave;
+- os codigos sao normalizados antes do merge;
+- a tabela 5882 e lida com `skiprows=4` para ignorar os metadados iniciais do CSV;
+- apenas a coluna `Total` e aproveitada da tabela 5882, pois `Existência de Plano Diretor` vem constante como `Com Plano Diretor` nas linhas validas;
+- os valores da coluna `Total` sao convertidos para indicador binario, com `1` significando existencia de plano diretor e `-` sendo convertido para `0`;
+- a coluna incorporada e renomeada para `Existência de Plano Diretor - Existe`.
+
+Coluna incorporada:
+
+- `Existência de Plano Diretor - Existe`
+
+Resultado registrado:
+
+- a `merge_v13.csv` foi gerada com 5570 linhas;
+- houve correspondencia para todos os municipios da `v12`.
+
+Execucao:
+
+```bash
+python3 scripts/merge_tabela5882_plano_diretor_v13.py
+```
+
+## Etapa 17: Normalizacao Dos Nomes Das Colunas Na V13
+
+Script: `scripts/normaliza_nomes_colunas_v13.py`
+
+Objetivo:
+
+- ler `../prata/processamento/merge_v13.csv`;
+- renomear colunas para nomes mais curtos e padronizados;
+- manter o sentido das variaveis;
+- gerar `../prata/processamento/merge_v14.csv`.
+
+Como a normalizacao e feita:
+
+- os nomes passam para um padrao em `snake_case`;
+- acentos, espacos e simbolos longos sao removidos dos nomes finais;
+- abreviacoes curtas sao usadas quando o significado segue claro;
+- colunas ja curtas e consistentes, como parte das variaveis de PIB e FUNDeb, sao preservadas ou ajustadas minimamente;
+- as variaveis `VAR56` a `VAR66` passam a usar o prefixo `regic_` para manter contexto.
+
+Exemplos de renomeacao:
+
+- `Cód.` -> `cod_mun`
+- `Município` -> `municipio`
+- `Atendimento da população total com rede coletora de esgoto` -> `esgoto_pop_total_rede`
+- `Existência de iluminação pública - Existe (%)` -> `ilum_pub_pct`
+- `Existência de Plano Diretor - Existe` -> `plano_diretor`
+- `VAR56` -> `regic_var56`
+
+Resultado registrado:
+
+- a `merge_v14.csv` foi gerada com 5570 linhas;
+- os nomes das colunas ficaram mais curtos sem perder o contexto principal.
+
+Execucao:
+
+```bash
+python3 scripts/normaliza_nomes_colunas_v13.py
+```
+
+## Etapa 18: Geracao Do Dicionario De Dados Da V14
+
+Script: `scripts/gera_dicionario_dados_v14.py`
+
+Objetivo:
+
+- ler automaticamente a versao mais recente em `../prata/processamento/merge_v*.csv`;
+- montar um dicionario de dados em CSV para todas as colunas da base;
+- registrar, para cada variavel, o nome usado na `v14`, o nome original, a descricao original e o ano de referencia do dado;
+- gerar `dicionario_dados.csv`.
+
+Como o dicionario e montado:
+
+- a ordem das linhas segue a ordem das colunas na `merge_v14.csv`;
+- a entrada e descoberta automaticamente a partir do maior arquivo `merge_v*.csv` da pasta `../prata/processamento/`;
+- o script valida se todas as colunas da `v14` estao cobertas no dicionario;
+- as descricoes da REGIC 2018 sao lidas a partir da aba `Descrição das variáveis` da planilha original;
+- quando a coluna da `v14` resulta de transformacao do dado original, isso e registrado em `observacoes`;
+- o arquivo final inclui a coluna `tipo`, para classificar a variavel como identificador, categorica, binaria, percentual, contagem, numerica absoluta ou indice normalizado;
+- o campo `ano_referencia` e gravado como texto, evitando a leitura com casas decimais como `2021.0`;
+- os nomes em `fonte_original` sao padronizados para facilitar uso em relatorios e documentacao.
+
+Arquivo gerado:
+
+- `dicionario_dados.csv`
+
+Execucao:
+
+```bash
+python3 scripts/gera_dicionario_dados_v14.py
+```
+
+## Regra Permanente Para Novas CSVs E Novas Versoes
+
+Sempre que uma nova CSV for incorporada ao pipeline, a atualizacao nao termina no merge da nova base. A manutencao deve incluir tambem a documentacao da etapa e a atualizacao do dicionario de dados.
+
+Fluxo obrigatorio para qualquer nova etapa:
+
+1. criar ou atualizar o script que processa a nova CSV;
+2. gerar a nova versao da base em `../prata/processamento/`;
+3. documentar a etapa no `readme.md`;
+4. atualizar o dicionario de dados para refletir as colunas da versao final mais recente;
+5. regenerar o CSV do dicionario de dados.
+
+Ao documentar uma nova etapa no `readme.md`, registrar sempre:
+
+- nome do script;
+- arquivo ou arquivos de entrada;
+- chave de merge;
+- colunas adicionadas, removidas ou transformadas;
+- arquivo de saida gerado;
+- ano de referencia do dado incorporado;
+- regra de tratamento aplicada, quando houver recodificacao, agregacao, normalizacao ou renomeacao.
+
+Ao atualizar o dicionario de dados, registrar para cada nova coluna:
+
+- `variavel_v14` ou o nome vigente da versao mais recente da base;
+- `tipo`;
+- `variavel_original`;
+- `descricao_original`;
+- `ano_referencia`;
+- `fonte_original`;
+- `observacoes`.
+
+Regras para manutencao do script `scripts/gera_dicionario_dados_v14.py`:
+
+- se a nova etapa apenas renomear colunas existentes, atualizar os nomes em `variavel_v14`, preservando a descricao de origem;
+- se a nova etapa adicionar colunas, incluir novas entradas em `METADADOS`;
+- se a nova etapa criar um novo tipo de variavel, atualizar tambem o mapeamento `TIPO_POR_VARIAVEL`;
+- se a nova etapa usar nova fonte, padronizar o nome em `FONTE_PADRAO`;
+- nao e necessario atualizar manualmente `INPUT_FILE` e `OUTPUT_FILE`, porque a versao final mais recente e descoberta automaticamente pelo script.
+
+Validacao obrigatoria apos cada nova incorporacao:
+
+- rodar o script do dicionario de dados;
+- verificar se todas as colunas da versao final estao cobertas;
+- confirmar se o numero de linhas do dicionario e igual ao numero de colunas da base final;
+- revisar se o `ano_referencia` e a `fonte_original` das novas variaveis ficaram preenchidos.
+
+Comando padrao apos qualquer nova etapa:
+
+```bash
+python3 scripts/gera_dicionario_dados_v14.py
+```
+
 ## Saidas Da Jornada
 
 Ao final das etapas atuais, os principais arquivos processados sao:
@@ -619,6 +780,9 @@ Ao final das etapas atuais, os principais arquivos processados sao:
 - `../prata/processamento/merge_v10.csv`
 - `../prata/processamento/merge_v11.csv`
 - `../prata/processamento/merge_v12.csv`
+- `../prata/processamento/merge_v13.csv`
+- `../prata/processamento/merge_v14.csv`
+- `dicionario_dados.csv`
 - `../prata/pre_merge/homicidios_municipais_2022.csv`
 - `../prata/pre_merge/indicadores_seguranca_publica_municipal/*.csv`
 - `../prata/pre_merge/regic_2018/*.csv`
@@ -637,6 +801,12 @@ Quando um novo script de merge for criado, acrescente aqui:
 5. colunas adicionadas ou transformacoes realizadas;
 6. arquivo de saida;
 7. comando de execucao.
+
+Quando o novo script alterar a versao final da base, acrescente tambem:
+
+8. atualizacao do dicionario de dados;
+9. ano de referencia das novas variaveis;
+10. comando para regenerar o CSV do dicionario.
 
 ## Arquivos Relacionados
 
@@ -657,3 +827,6 @@ Quando um novo script de merge for criado, acrescente aqui:
 - `scripts/remove_coluna_nao_existe_v9.py`
 - `scripts/merge_regic_v10.py`
 - `scripts/normaliza_regic_v11.py`
+- `scripts/merge_tabela5882_plano_diretor_v13.py`
+- `scripts/normaliza_nomes_colunas_v13.py`
+- `scripts/gera_dicionario_dados_v14.py`

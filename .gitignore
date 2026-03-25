@@ -3,6 +3,7 @@ __pycache__/
 *.py[codz]
 *$py.class
 *.csv
+!documentacao/dicionario_dados.csv
 .DS_Store
 
 # C extensions
