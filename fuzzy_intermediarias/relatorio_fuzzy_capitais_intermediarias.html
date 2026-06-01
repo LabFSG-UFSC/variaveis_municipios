@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fuzzy das Capitais Intermediarias</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 24px;
+      color: #1f2937;
+    }
+    h1, h2, h3 { line-height: 1.2; }
+    code {
+      background: #f3f4f6;
+      padding: 0.15rem 0.35rem;
+      border-radius: 4px;
+    }
+    pre {
+      background: #0b1020;
+      color: #e5e7eb;
+      padding: 16px;
+      border-radius: 10px;
+      overflow-x: auto;
+    }
+    pre code {
+      background: transparent;
+      padding: 0;
+    }
+    blockquote {
+      border-left: 4px solid #d1d5db;
+      margin: 1rem 0;
+      padding-left: 1rem;
+      color: #4b5563;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 1rem 0;
+    }
+    th, td {
+      border: 1px solid #d1d5db;
+      padding: 8px 10px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th { background: #f9fafb; }
+  </style>
+</head>
+<body>
+<h2>Objetivo</h2>
+<p>Esta pasta reune o pacote autonomo para classificar as 119 capitais de regioes intermediarias nao-UF com um modelo fuzzy reduzido, mais simples de auditar e reproduzir.</p>
+<p>O pacote contem:</p>
+<ul>
+<li>a base de entrada reduzida</li>
+<li>a lista de capitais intermediarias analisadas</li>
+<li>as geometrias dos municipios</li>
+<li>o script principal de classificacao</li>
+<li>o script de validacao do modelo</li>
+<li>o script de geracao do GeoPackage final</li>
+<li>o script de plot do resultado</li>
+</ul>
+<h2>Estrutura</h2>
+<ul>
+<li><code>inputs/merge_v28_fuzzy_subset.csv</code></li>
+<li>recorte da <code>merge_v28</code> com apenas as colunas usadas pelo modelo</li>
+<li><code>inputs/capitais_intermediarias_nao_uf.csv</code></li>
+<li>lista dos 119 municipios do universo analisado</li>
+<li><code>inputs/capitais_intermediarias_geometrias.gpkg</code></li>
+<li>geometrias dos municipios, usadas no mapa final</li>
+<li><code>scripts/classifica_capitais_intermediarias_fuzzy_pacote.py</code></li>
+<li>executa a classificacao fuzzy reduzida</li>
+<li><code>scripts/valida_modelo_fuzzy_pacote.py</code></li>
+<li>executa a validacao formal do modelo reduzido</li>
+<li><code>scripts/gera_gpkg_capitais_intermediarias_fuzzy_pacote.py</code></li>
+<li>gera um GeoPackage com o resultado final</li>
+<li><code>scripts/plot_resultado_fuzzy_pacote.py</code></li>
+<li>gera um mapa resumido do resultado fuzzy</li>
+<li><code>scripts/correlacao_variaveis_fuzzy_pacote.py</code></li>
+<li>calcula a correlação das variáveis usadas no fuzzy</li>
+<li><code>scripts/pca_resultado_fuzzy_pacote.py</code></li>
+<li>gera a projeção PCA do resultado fuzzy apenas para visualização</li>
+<li><code>outputs/</code></li>
+<li>pasta com os resultados gerados pelos scripts</li>
+</ul>
+<h2>Como Executar</h2>
+<h3>1. Classificacao principal</h3>
+<pre><code class="language-bash">python3 fuzzy_intermediarias/scripts/classifica_capitais_intermediarias_fuzzy_pacote.py
+</code></pre>
+<p>Gera:</p>
+<ul>
+<li><code>outputs/classificacao_capitais_intermediarias_fuzzy.csv</code></li>
+<li><code>outputs/classificacao_capitais_intermediarias_fuzzy_resumo.csv</code></li>
+</ul>
+<h3>2. Validacao do modelo</h3>
+<pre><code class="language-bash">python3 fuzzy_intermediarias/scripts/valida_modelo_fuzzy_pacote.py
+</code></pre>
+<p>Gera:</p>
+<ul>
+<li><code>outputs/validacao_modelo_fuzzy_reduzido_resumo.csv</code></li>
+<li><code>outputs/validacao_modelo_fuzzy_reduzido_sensibilidade.csv</code></li>
+<li><code>outputs/validacao_modelo_fuzzy_reduzido_validacao_externa.csv</code></li>
+<li><code>outputs/validacao_modelo_fuzzy_reduzido_relatorio.md</code></li>
+</ul>
+<h3>3. GeoPackage final</h3>
+<pre><code class="language-bash">python3 fuzzy_intermediarias/scripts/gera_gpkg_capitais_intermediarias_fuzzy_pacote.py
+</code></pre>
+<p>Gera os arquivos geoespaciais da classificacao final dentro de <code>outputs/gpkg_fuzzy_capitais_intermediarias/</code>.</p>
+<h3>4. Mapa resumido</h3>
+<pre><code class="language-bash">python3 fuzzy_intermediarias/scripts/plot_resultado_fuzzy_pacote.py
+</code></pre>
+<p>Gera:</p>
+<ul>
+<li><code>outputs/plot_resultado_fuzzy_capitais_intermediarias.png</code></li>
+</ul>
+<h3>5. Correlação das variáveis</h3>
+<pre><code class="language-bash">python3 fuzzy_intermediarias/scripts/correlacao_variaveis_fuzzy_pacote.py
+</code></pre>
+<p>Gera:</p>
+<ul>
+<li><code>outputs/correlacao_variaveis_fuzzy.csv</code></li>
+<li><code>outputs/correlacao_variaveis_fuzzy_pares.csv</code></li>
+<li><code>outputs/correlacao_variaveis_fuzzy_resumo.md</code></li>
+<li><code>outputs/correlacao_variaveis_fuzzy_heatmap.png</code></li>
+</ul>
+<h3>6. PCA do resultado fuzzy</h3>
+<pre><code class="language-bash">python3 fuzzy_intermediarias/scripts/pca_resultado_fuzzy_pacote.py
+</code></pre>
+<p>Gera:</p>
+<ul>
+<li><code>outputs/pca_resultado_fuzzy_capitais_intermediarias.png</code></li>
+<li><code>outputs/pca_resultado_fuzzy_capitais_intermediarias_hulls.png</code></li>
+<li><code>outputs/pca_resultado_fuzzy_capitais_intermediarias.csv</code></li>
+</ul>
+<h2>Visao Geral Do Metodo</h2>
+<p>O modelo usa um conjunto reduzido de variaveis para evitar redundancia e facilitar interpretacao.</p>
+<p>As dimensoes centrais sao:</p>
+<ul>
+<li>dinamismo economico</li>
+<li>infraestrutura urbana</li>
+<li>conectividade digital</li>
+<li>oferta de servicos</li>
+<li>seguranca territorial</li>
+</ul>
+<p>Cada municipio recebe:</p>
+<ul>
+<li><code>score_final</code></li>
+<li><code>ranking_final</code></li>
+<li><code>distancia_euclidiana_classe</code></li>
+<li>uma classificacao fuzzy entre:</li>
+<li><code>muito_baixo</code></li>
+<li><code>baixo</code></li>
+<li><code>medio</code></li>
+<li><code>alto</code></li>
+<li><code>muito_alto</code></li>
+<li>um valor de <code>confianca_classificacao</code></li>
+</ul>
+<h2>Distância Euclidiana Da Classe</h2>
+<p>Para medir a qualidade do encaixe fuzzy, o script calcula a distância euclidiana entre:</p>
+<ul>
+<li>o vetor de pertinências observado do município</li>
+<li>o vetor ideal da classe atribuída</li>
+</ul>
+<p>Na prática:</p>
+<ul>
+<li>vetor observado: <code>[pert_muito_baixo, pert_baixo, pert_medio, pert_alto, pert_muito_alto]</code></li>
+<li>vetor ideal: um vetor <code>one-hot</code> com <code>1</code> na classe final e <code>0</code> nas demais</li>
+</ul>
+<p>Interpretação:</p>
+<ul>
+<li>distância menor: classificação mais nítida e mais próxima do vetor ideal</li>
+<li>distância maior: classificação mais difusa e mais próxima de uma transição entre classes</li>
+</ul>
+<p>No resultado atual, <code>17,65%</code> dos municípios ficaram com distância euclidiana acima de <code>0,5</code>.</p>
+<h2>Município Referência Por Classe</h2>
+<p>Para sintetizar cada classe em um município-referência, o projeto adota o seguinte critério:</p>
+<ol>
+<li>maior <code>confianca_classificacao</code>;</li>
+<li>menor <code>distancia_euclidiana_classe</code> como critério de desempate;</li>
+<li>maior <code>score_final</code> como segundo desempate.</li>
+</ol>
+<p>Essa escolha privilegia municípios com classificação mais nítida e mais próxima do vetor ideal da classe.</p>
+<p>Arquivos gerados:</p>
+<ul>
+<li><code>outputs/municipio_referencia_por_classe_fuzzy.csv</code></li>
+<li><code>outputs/municipio_referencia_por_classe_fuzzy.md</code></li>
+</ul>
+<h2>Variaveis Usadas</h2>
+<p>O script principal usa estas variaveis brutas e derivadas:</p>
+<ul>
+<li><code>empresas_1k</code></li>
+<li>empresas por mil habitantes</li>
+<li><code>regic_var60</code></li>
+<li>indicador de centralidade funcional</li>
+<li><code>via_pav_pct</code></li>
+<li>percentual de vias urbanas pavimentadas</li>
+<li><code>indice_conectividade</code></li>
+<li>indicador sintetico de conectividade digital</li>
+<li><code>estab_saude_10k</code></li>
+<li>estabelecimentos de saude por dez mil habitantes</li>
+<li><code>homicidios_100k</code></li>
+<li>taxa de homicidios por cem mil habitantes</li>
+</ul>
+<h2>Por Que Essas Variaveis Foram Selecionadas</h2>
+<p>As variaveis foram escolhidas para representar, com o menor nivel possivel de redundancia, as dimensoes centrais que o fuzzy quer capturar.</p>
+<p>O criterio geral foi:</p>
+<ul>
+<li>cobrir dimensoes urbanas diferentes;</li>
+<li>evitar muitos indicadores muito parecidos entre si;</li>
+<li>manter o modelo interpretavel;</li>
+<li>preservar a leitura de centralidade, infraestrutura, servicos, conectividade e seguranca.</li>
+</ul>
+<p>O papel de cada variavel no modelo e o seguinte:</p>
+<ul>
+<li><code>empresas_1k</code></li>
+<li>representa dinamismo economico e densidade da atividade produtiva.</li>
+<li>foi escolhida porque resume a intensidade da base empresarial por habitante.</li>
+<li><code>regic_var60</code></li>
+<li>representa centralidade funcional e insercao na rede urbana.</li>
+<li>foi mantida porque ajuda a capturar o papel hierarquico do municipio no sistema urbano.</li>
+<li><code>via_pav_pct</code></li>
+<li>representa infraestrutura urbana basica.</li>
+<li>foi escolhida como proxy simples de qualidade da malha urbana e da estrutura fisica da cidade.</li>
+<li><code>indice_conectividade</code></li>
+<li>representa conectividade digital.</li>
+<li>foi mantida para captar a dimensao de insercao tecnologica e infraestrutura informacional.</li>
+<li><code>estab_saude_10k</code></li>
+<li>representa oferta relativa de servicos de saude.</li>
+<li>foi escolhida como indicador de acesso e densidade de servicos essenciais.</li>
+<li><code>homicidios_100k</code></li>
+<li>representa seguranca territorial.</li>
+<li>foi mantida como componente negativo para equilibrar a leitura do desenvolvimento urbano com a dimensao da violencia.</li>
+</ul>
+<p>Em resumo, o conjunto foi reduzido para evitar redundancia e para deixar cada eixo do modelo com uma interpretacao mais limpa:</p>
+<ul>
+<li>economia</li>
+<li>centralidade</li>
+<li>infraestrutura</li>
+<li>conectividade</li>
+<li>servicos</li>
+<li>seguranca</li>
+</ul>
+<p>Isso explica por que o modelo nao usa dezenas de variaveis semelhantes: ele prefere poucas variaveis com papeis bem definidos.</p>
+<h2>Fluxo Do Processamento</h2>
+<pre><code class="language-text">base bruta -&gt; filtros do universo -&gt; indicadores derivados -&gt; percent_rank -&gt; eixos sintenticos -&gt; score final -&gt; pertinencias fuzzy -&gt; classe final
+</code></pre>
+<h2>Detalhamento Do Calculo</h2>
+<h3>Passo 1. Ler e filtrar o universo</h3>
+<p>O modelo nao classifica todos os municipios do Brasil. Ele:</p>
+<ul>
+<li>le <code>merge_v28_fuzzy_subset.csv</code>;</li>
+<li>le <code>capitais_intermediarias_nao_uf.csv</code>;</li>
+<li>cruza as bases por <code>cod_mun</code>;</li>
+<li>preserva somente os 119 municipios do universo analisado.</li>
+</ul>
+<p>Se algum municipio esperado nao estiver presente, o script interrompe a execucao.</p>
+<h3>Passo 2. Construir os indicadores derivados</h3>
+<p>O modelo transforma as variaveis brutas em tres razoes populacionais:</p>
+<ul>
+<li><code>empresas_1k = empresas_total / pop_total * 1000</code></li>
+<li><code>estab_saude_10k = estab_total / pop_total * 10000</code></li>
+<li><code>homicidios_100k = vitimas_homicidio_2022 / pop_total * 100000</code></li>
+</ul>
+<p>Ele tambem limita duas variaveis em uma escala interpretavel:</p>
+<ul>
+<li><code>via_pav_pct</code> fica entre <code>0</code> e <code>100</code></li>
+<li><code>indice_conectividade</code> fica entre <code>0</code> e <code>100</code></li>
+</ul>
+<h3>Passo 3. Padronizar por ranking relativo</h3>
+<p>Depois dos ajustes de escala, cada variavel recebe um <code>percent_rank</code>.</p>
+<p>Isso coloca todas na mesma base comparativa, entre <code>0</code> e <code>1</code>, e evita que a unidade original domine o calculo.</p>
+<p>Variaveis tratadas como positivas:</p>
+<ul>
+<li><code>empresas_1k</code></li>
+<li><code>regic_var60</code></li>
+<li><code>via_pav_pct</code></li>
+<li><code>indice_conectividade</code></li>
+<li><code>estab_saude_10k</code></li>
+</ul>
+<p>Variavel tratada como negativa:</p>
+<ul>
+<li><code>homicidios_100k</code></li>
+</ul>
+<p>Para a variavel negativa, o ranking e invertido para que valores mais altos representem uma situacao relativamente melhor no universo comparado.</p>
+<h3>Passo 4. Agregar em eixos sintenticos</h3>
+<p>Os scores sao agregados em cinco eixos:</p>
+<ul>
+<li><code>dinamismo_economico</code></li>
+<li><code>infraestrutura_urbana</code></li>
+<li><code>conectividade_digital</code></li>
+<li><code>oferta_servicos</code></li>
+<li><code>seguranca_territorial</code></li>
+</ul>
+<p>Cada eixo e uma media ponderada dos scores das variaveis que o compoem.</p>
+<p>Na pratica:</p>
+<ul>
+<li><code>dinamismo_economico</code> combina <code>empresas_1k</code> e <code>regic_var60</code>;</li>
+<li><code>infraestrutura_urbana</code> usa apenas <code>via_pav_pct</code>;</li>
+<li><code>conectividade_digital</code> usa apenas <code>indice_conectividade</code>;</li>
+<li><code>oferta_servicos</code> usa apenas <code>estab_saude_10k</code>;</li>
+<li><code>seguranca_territorial</code> usa apenas <code>homicidios_100k</code>.</li>
+</ul>
+<p>Se uma variavel estiver ausente, o peso dela nao entra no denominador da media.</p>
+<h3>Passo 5. Calcular o <code>score_final</code></h3>
+<p>Depois dos eixos, o script calcula <code>score_final</code> com pesos definidos para cada dimensao:</p>
+<ul>
+<li><code>dinamismo_economico</code>: <code>0.30</code></li>
+<li><code>infraestrutura_urbana</code>: <code>0.15</code></li>
+<li><code>conectividade_digital</code>: <code>0.20</code></li>
+<li><code>oferta_servicos</code>: <code>0.20</code></li>
+<li><code>seguranca_territorial</code>: <code>0.15</code></li>
+</ul>
+<p>Esse e o indicador continuo principal do modelo.</p>
+<p>Ele resume a posicao relativa do municipio no conjunto analisado, combinando economia, infraestrutura, conectividade, servicos e seguranca.</p>
+<h3>Passo 6. Calcular os quantis da distribuicao</h3>
+<p>O <code>score_final</code> e resumido por cinco quantis:</p>
+<ul>
+<li><code>q20</code></li>
+<li><code>q35</code></li>
+<li><code>q50</code></li>
+<li><code>q65</code></li>
+<li><code>q80</code></li>
+</ul>
+<p>Esses cortes nao sao fixos. Eles sao calculados a partir da distribuicao observada dos 119 municipios.</p>
+<h3>Passo 7. Gerar as pertinencias fuzzy</h3>
+<p>O modelo converte o <code>score_final</code> em cinco conjuntos fuzzy:</p>
+<ul>
+<li><code>muito_baixo</code></li>
+<li><code>baixo</code></li>
+<li><code>medio</code></li>
+<li><code>alto</code></li>
+<li><code>muito_alto</code></li>
+</ul>
+<p>As funcoes sao triangulares e trapezoidais, com transicoes suaves entre classes. Assim, um municipio pode pertencer parcialmente a mais de uma classe ao mesmo tempo.</p>
+<h3>Passo 8. Escolher a classe final</h3>
+<p>A classe final e a de maior pertinencia.</p>
+<p>Em termos praticos:</p>
+<p><code>classificacao_fuzzy = argmax(pert_muito_baixo, pert_baixo, pert_medio, pert_alto, pert_muito_alto)</code></p>
+<h3>Passo 9. Calcular a confianca</h3>
+<p>O script tambem calcula <code>confianca_classificacao</code>, que e a maior pertinencia observada para o municipio.</p>
+<p>Interpretacao:</p>
+<ul>
+<li>valor alto: classe bem definida;</li>
+<li>valor baixo: municipio mais perto da fronteira entre classes.</li>
+</ul>
+<h3>Passo 10. Calcular o ranking final</h3>
+<p>Por fim, o script calcula <code>ranking_final</code> ordenando os municipios por <code>score_final</code> em ordem decrescente.</p>
+<p>Assim:</p>
+<ul>
+<li><code>ranking_final = 1</code> corresponde ao maior <code>score_final</code>;</li>
+<li>valores maiores correspondem a posicoes mais baixas no ordenamento.</li>
+</ul>
+<h2>Saidas Principais</h2>
+<h3>Classificacao</h3>
+<ul>
+<li><code>outputs/classificacao_capitais_intermediarias_fuzzy.csv</code></li>
+<li><code>outputs/classificacao_capitais_intermediarias_fuzzy_resumo.csv</code></li>
+</ul>
+<h3>Validacao</h3>
+<ul>
+<li><code>outputs/validacao_modelo_fuzzy_reduzido_resumo.csv</code></li>
+<li><code>outputs/validacao_modelo_fuzzy_reduzido_sensibilidade.csv</code></li>
+<li><code>outputs/validacao_modelo_fuzzy_reduzido_validacao_externa.csv</code></li>
+<li><code>outputs/validacao_modelo_fuzzy_reduzido_relatorio.md</code></li>
+</ul>
+<h3>Visualizacao</h3>
+<ul>
+<li><code>outputs/plot_resultado_fuzzy_capitais_intermediarias.png</code></li>
+</ul>
+<h3>Correlacao</h3>
+<ul>
+<li><code>outputs/correlacao_variaveis_fuzzy.csv</code></li>
+<li><code>outputs/correlacao_variaveis_fuzzy_pares.csv</code></li>
+<li><code>outputs/correlacao_variaveis_fuzzy_resumo.md</code></li>
+<li><code>outputs/correlacao_variaveis_fuzzy_heatmap.png</code></li>
+</ul>
+<h2>Observacao Final</h2>
+<p>Este pacote foi mantido separado do restante do projeto para facilitar reproducao, teste de consistencia e geracao dos artefatos finais de classificacao das capitais intermediarias.</p>
+</body>
+</html>
