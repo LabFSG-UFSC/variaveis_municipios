@@ -1,10 +1,23 @@
-# Fuzzy das Capitais Intermediarias
+---
+title: "Fuzzy das Capitais Intermediarias"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    theme: flatly
+execute:
+  echo: false
+  warning: false
+  message: false
+---
 
 ## Objetivo
 
 Esta pasta reune o pacote autonomo para classificar as 119 capitais de regioes intermediarias nao-UF com um modelo fuzzy reduzido, mais simples de auditar e reproduzir.
 
 O pacote contem:
+
 - a base de entrada reduzida
 - a lista de capitais intermediarias analisadas
 - as geometrias dos municipios
@@ -45,6 +58,7 @@ python3 fuzzy_intermediarias/scripts/classifica_capitais_intermediarias_fuzzy_pa
 ```
 
 Gera:
+
 - `outputs/classificacao_capitais_intermediarias_fuzzy.csv`
 - `outputs/classificacao_capitais_intermediarias_fuzzy_resumo.csv`
 
@@ -55,6 +69,7 @@ python3 fuzzy_intermediarias/scripts/valida_modelo_fuzzy_pacote.py
 ```
 
 Gera:
+
 - `outputs/validacao_modelo_fuzzy_reduzido_resumo.csv`
 - `outputs/validacao_modelo_fuzzy_reduzido_sensibilidade.csv`
 - `outputs/validacao_modelo_fuzzy_reduzido_validacao_externa.csv`
@@ -75,6 +90,7 @@ python3 fuzzy_intermediarias/scripts/plot_resultado_fuzzy_pacote.py
 ```
 
 Gera:
+
 - `outputs/plot_resultado_fuzzy_capitais_intermediarias.png`
 
 ### 5. Correlação das variáveis
@@ -84,6 +100,7 @@ python3 fuzzy_intermediarias/scripts/correlacao_variaveis_fuzzy_pacote.py
 ```
 
 Gera:
+
 - `outputs/correlacao_variaveis_fuzzy.csv`
 - `outputs/correlacao_variaveis_fuzzy_pares.csv`
 - `outputs/correlacao_variaveis_fuzzy_resumo.md`
@@ -96,6 +113,7 @@ python3 fuzzy_intermediarias/scripts/pca_resultado_fuzzy_pacote.py
 ```
 
 Gera:
+
 - `outputs/pca_resultado_fuzzy_capitais_intermediarias.png`
 - `outputs/pca_resultado_fuzzy_capitais_intermediarias_hulls.png`
 - `outputs/pca_resultado_fuzzy_capitais_intermediarias.csv`
@@ -105,6 +123,7 @@ Gera:
 O modelo usa um conjunto reduzido de variaveis para evitar redundancia e facilitar interpretacao.
 
 As dimensoes centrais sao:
+
 - dinamismo economico
 - infraestrutura urbana
 - conectividade digital
@@ -112,6 +131,7 @@ As dimensoes centrais sao:
 - seguranca territorial
 
 Cada municipio recebe:
+
 - `score_final`
 - `ranking_final`
 - `distancia_euclidiana_classe`

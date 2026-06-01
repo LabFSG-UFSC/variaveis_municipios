@@ -1,0 +1,6 @@
+classificacao_fuzzy,municipio,uf,confianca_classificacao,distancia_euclidiana_classe,score_final,ranking_final
+alto,Guarapuava (PR),PR,0.993218249075216,0.0095908441344658,0.6228151260504203,42
+baixo,Ji-Paraná (RO),RO,0.9978362783988464,0.0030599644335512,0.3902941176470589,78
+medio,Sobral (CE),CE,1.0,0.0,0.4697478991596639,60
+muito_alto,Presidente Prudente (SP),SP,1.0,0.0,0.8951260504201682,1
+muito_baixo,Cruzeiro do Sul (AC),AC,1.0,0.0,0.2715126050420168,96

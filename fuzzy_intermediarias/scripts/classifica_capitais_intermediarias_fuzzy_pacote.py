@@ -62,11 +62,11 @@ PESOS_CLASSIFICACAO = {
 
 COLUNAS_EIXOS = list(PESOS_EIXOS.keys())
 COLUNAS_PERTINENCIA = [
-    "pert_muito_alto",
-    "pert_alto",
-    "pert_medio",
-    "pert_baixo",
     "pert_muito_baixo",
+    "pert_baixo",
+    "pert_medio",
+    "pert_alto",
+    "pert_muito_alto",
 ]
 
 
@@ -188,6 +188,14 @@ def classifica_fuzzy(df: pd.DataFrame) -> pd.DataFrame:
     df["pert_muito_baixo"] = pertinencias["muito_baixo"]
     df["classificacao_fuzzy"] = df[COLUNAS_PERTINENCIA].idxmax(axis=1).str.removeprefix("pert_")
     df["confianca_classificacao"] = df[COLUNAS_PERTINENCIA].max(axis=1)
+    ordem_classes = [col.removeprefix("pert_") for col in COLUNAS_PERTINENCIA]
+    mapa_vetores = {
+        classe: np.eye(len(COLUNAS_PERTINENCIA), dtype=float)[indice]
+        for indice, classe in enumerate(ordem_classes)
+    }
+    vetores_alvo = np.vstack(df["classificacao_fuzzy"].map(mapa_vetores).to_list())
+    vetores_obs = df[COLUNAS_PERTINENCIA].to_numpy(dtype=float)
+    df["distancia_euclidiana_classe"] = np.sqrt(((vetores_obs - vetores_alvo) ** 2).sum(axis=1))
     df["ranking_final"] = df["score_final"].rank(method="min", ascending=False).astype(int)
     return df.sort_values(["ranking_final", "score_final", "municipio"], ascending=[True, False, True]).reset_index(drop=True)
 
@@ -199,6 +207,7 @@ def gera_resumo(df: pd.DataFrame) -> pd.DataFrame:
             qtd_municipios=("cod_mun", "count"),
             score_final_medio=("score_final", "mean"),
             confianca_media=("confianca_classificacao", "mean"),
+            distancia_euclidiana_media=("distancia_euclidiana_classe", "mean"),
         )
         .reset_index()
         .sort_values(["score_final_medio", "classificacao_fuzzy"], ascending=[False, True])
@@ -226,6 +235,7 @@ def main() -> int:
         "classificacao_fuzzy",
         "confianca_classificacao",
         "score_final",
+        "distancia_euclidiana_classe",
         *COLUNAS_EIXOS,
         "empresas_1k",
         "regic_var60",
