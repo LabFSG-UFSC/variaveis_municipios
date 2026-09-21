@@ -1,0 +1,829 @@
+"Municípios, cluster, categoria, classe ABC e UF - BR classe A",,,,,,
+Tabela em formato longo: cada linha corresponde a um município classificado no universo analisado.,,,,,,
+,,,,,,
+Cluster,Código do município,Município,UF,Categoria,Classe ABC,Domicílios CNEFE
+1,3548500,Santos (SP),SP,capital de imediata,A,231082
+1,3541000,Praia Grande (SP),SP,demais municipios,A,279872
+1,3551009,São Vicente (SP),SP,demais municipios,A,165050
+2,3203205,Linhares (ES),ES,capital de imediata,A,92414
+2,3101607,Alfenas (MG),MG,capital de imediata,A,47478
+2,3104007,Araxá (MG),MG,capital de imediata,A,57379
+2,3111200,Campo Belo (MG),MG,capital de imediata,A,30833
+2,3115300,Cataguases (MG),MG,capital de imediata,A,37889
+2,3118304,Conselheiro Lafaiete (MG),MG,capital de imediata,A,69857
+2,3126109,Formiga (MG),MG,capital de imediata,A,43157
+2,3127107,Frutal (MG),MG,capital de imediata,A,34852
+2,3128709,Guaxupé (MG),MG,capital de imediata,A,28407
+2,3131703,Itabira (MG),MG,capital de imediata,A,60253
+2,3136207,João Monlevade (MG),MG,capital de imediata,A,39947
+2,3138203,Lavras (MG),MG,capital de imediata,A,56247
+2,3139409,Manhuaçu (MG),MG,capital de imediata,A,51887
+2,3143906,Muriaé (MG),MG,capital de imediata,A,61134
+2,3147105,Pará de Minas (MG),MG,capital de imediata,A,50497
+2,3147907,Passos (MG),MG,capital de imediata,A,63765
+2,3148103,Patrocínio (MG),MG,capital de imediata,A,49036
+2,3152105,Ponte Nova (MG),MG,capital de imediata,A,31413
+2,3151800,Poços de Caldas (MG),MG,capital de imediata,A,92261
+2,3167202,Sete Lagoas (MG),MG,capital de imediata,A,115177
+2,3162500,São João del Rei (MG),MG,capital de imediata,A,55641
+2,3163706,São Lourenço (MG),MG,capital de imediata,A,26946
+2,3164704,São Sebastião do Paraíso (MG),MG,capital de imediata,A,38692
+2,3169307,Três Corações (MG),MG,capital de imediata,A,39036
+2,3169901,Ubá (MG),MG,capital de imediata,A,58543
+2,3171303,Viçosa (MG),MG,capital de imediata,A,48034
+2,4101408,Apucarana (PR),PR,capital de imediata,A,67906
+2,4104303,Campo Mourão (PR),PR,capital de imediata,A,52029
+2,4105508,Cianorte (PR),PR,capital de imediata,A,41645
+2,4106407,Cornélio Procópio (PR),PR,capital de imediata,A,25946
+2,4107207,Dois Vizinhos (PR),PR,capital de imediata,A,23789
+2,4108403,Francisco Beltrão (PR),PR,capital de imediata,A,51521
+2,4110706,Irati (PR),PR,capital de imediata,A,30728
+2,4118204,Paranaguá (PR),PR,capital de imediata,A,70312
+2,4118402,Paranavaí (PR),PR,capital de imediata,A,48466
+2,4118501,Pato Branco (PR),PR,capital de imediata,A,46466
+2,4124103,Santo Antônio da Platina (PR),PR,capital de imediata,A,24178
+2,4127106,Telêmaco Borba (PR),PR,capital de imediata,A,35103
+2,4128203,União da Vitória (PR),PR,capital de imediata,A,28386
+2,3300100,Angra dos Reis (RJ),RJ,capital de imediata,A,110328
+2,3300704,Cabo Frio (RJ),RJ,capital de imediata,A,185612
+2,3303401,Nova Friburgo (RJ),RJ,capital de imediata,A,115377
+2,3304201,Resende (RJ),RJ,capital de imediata,A,69890
+2,3304300,Rio Bonito (RJ),RJ,capital de imediata,A,32239
+2,4304705,Carazinho (RS),RS,capital de imediata,A,31259
+2,4306106,Cruz Alta (RS),RS,capital de imediata,A,31507
+2,4307005,Erechim (RS),RS,capital de imediata,A,58555
+2,4311809,Marau (RS),RS,capital de imediata,A,24550
+2,4312401,Montenegro (RS),RS,capital de imediata,A,33921
+2,4313409,Novo Hamburgo (RS),RS,capital de imediata,A,125611
+2,4317202,Santa Rosa (RS),RS,capital de imediata,A,40234
+2,4317400,Santiago (RS),RS,capital de imediata,A,27986
+2,4317509,Santo Ângelo (RS),RS,capital de imediata,A,41635
+2,4318903,São Luiz Gonzaga (RS),RS,capital de imediata,A,19972
+2,4321204,Taquara (RS),RS,capital de imediata,A,32330
+2,4321501,Torres (RS),RS,capital de imediata,A,37151
+2,4321600,Tramandaí (RS),RS,capital de imediata,A,54857
+2,4322509,Vacaria (RS),RS,capital de imediata,A,32764
+2,4201406,Araranguá (SC),SC,capital de imediata,A,39805
+2,4202909,Brusque (SC),SC,capital de imediata,A,65812
+2,4204301,Concórdia (SC),SC,capital de imediata,A,42025
+2,4204806,Curitibanos (SC),SC,capital de imediata,A,20568
+2,4208203,Itajaí (SC),SC,capital de imediata,A,123670
+2,4214805,Rio do Sul (SC),SC,capital de imediata,A,36358
+2,4217204,São Miguel do Oeste (SC),SC,capital de imediata,A,23017
+2,4218707,Tubarão (SC),SC,capital de imediata,A,58036
+2,4219309,Videira (SC),SC,capital de imediata,A,28873
+2,4219507,Xanxerê (SC),SC,capital de imediata,A,25735
+2,3501905,Amparo (SP),SP,capital de imediata,A,35509
+2,3503307,Araras (SP),SP,capital de imediata,A,70274
+2,3504008,Assis (SP),SP,capital de imediata,A,54237
+2,3504503,Avaré (SP),SP,capital de imediata,A,49063
+2,3505500,Barretos (SP),SP,capital de imediata,A,66676
+2,3506508,Birigui (SP),SP,capital de imediata,A,66670
+2,3507506,Botucatu (SP),SP,capital de imediata,A,82737
+2,3510500,Caraguatatuba (SP),SP,capital de imediata,A,95855
+2,3511102,Catanduva (SP),SP,capital de imediata,A,63352
+2,3516200,Franca (SP),SP,capital de imediata,A,182010
+2,3518404,Guaratinguetá (SP),SP,capital de imediata,A,59847
+2,3522307,Itapetininga (SP),SP,capital de imediata,A,80195
+2,3522406,Itapeva (SP),SP,capital de imediata,A,46120
+2,3524105,Ituverava (SP),SP,capital de imediata,A,20075
+2,3525300,Jaú (SP),SP,capital de imediata,A,70420
+2,3526902,Limeira (SP),SP,capital de imediata,A,150450
+2,3527108,Lins (SP),SP,capital de imediata,A,40055
+2,3530706,Mogi Guaçu (SP),SP,capital de imediata,A,77431
+2,3534708,Ourinhos (SP),SP,capital de imediata,A,52925
+2,3538709,Piracicaba (SP),SP,capital de imediata,A,224750
+2,3542602,Registro (SP),SP,capital de imediata,A,30896
+2,3543907,Rio Claro (SP),SP,capital de imediata,A,104236
+2,3548906,São Carlos (SP),SP,capital de imediata,A,143200
+2,3549409,São Joaquim da Barra (SP),SP,capital de imediata,A,24417
+2,3549706,São José do Rio Pardo (SP),SP,capital de imediata,A,27742
+2,3549102,São João da Boa Vista (SP),SP,capital de imediata,A,51552
+2,3554003,Tatuí (SP),SP,capital de imediata,A,63312
+2,3554102,Taubaté (SP),SP,capital de imediata,A,154952
+2,3555000,Tupã (SP),SP,capital de imediata,A,34554
+2,2910800,Feira de Santana (BA),BA,capital de intermediaria,A,359076
+2,2307304,Juazeiro do Norte (CE),CE,capital de intermediaria,A,138103
+2,3201209,Cachoeiro de Itapemirim (ES),ES,capital de intermediaria,A,102689
+2,3201506,Colatina (ES),ES,capital de intermediaria,A,67314
+2,3105608,Barbacena (MG),MG,capital de intermediaria,A,68052
+2,3122306,Divinópolis (MG),MG,capital de intermediaria,A,130071
+2,3127701,Governador Valadares (MG),MG,capital de intermediaria,A,150898
+2,3131307,Ipatinga (MG),MG,capital de intermediaria,A,116651
+2,3143302,Montes Claros (MG),MG,capital de intermediaria,A,220712
+2,3148004,Patos de Minas (MG),MG,capital de intermediaria,A,95161
+2,3152501,Pouso Alegre (MG),MG,capital de intermediaria,A,86039
+2,3170107,Uberaba (MG),MG,capital de intermediaria,A,183595
+2,3170701,Varginha (MG),MG,capital de intermediaria,A,73860
+2,4104808,Cascavel (PR),PR,capital de intermediaria,A,173915
+2,4109401,Guarapuava (PR),PR,capital de intermediaria,A,90559
+2,4113700,Londrina (PR),PR,capital de intermediaria,A,283015
+2,4115200,Maringá (PR),PR,capital de intermediaria,A,209669
+2,4119905,Ponta Grossa (PR),PR,capital de intermediaria,A,178567
+2,3301009,Campos dos Goytacazes (RJ),RJ,capital de intermediaria,A,281500
+2,3302403,Macaé (RJ),RJ,capital de intermediaria,A,149212
+2,3303906,Petrópolis (RJ),RJ,capital de intermediaria,A,159371
+2,3306305,Volta Redonda (RJ),RJ,capital de intermediaria,A,133905
+2,2408003,Mossoró (RN),RN,capital de intermediaria,A,146770
+2,4310207,Ijuí (RS),RS,capital de intermediaria,A,45374
+2,4314100,Passo Fundo (RS),RS,capital de intermediaria,A,110654
+2,4314407,Pelotas (RS),RS,capital de intermediaria,A,191829
+2,4316808,Santa Cruz do Sul (RS),RS,capital de intermediaria,A,72154
+2,4316907,Santa Maria (RS),RS,capital de intermediaria,A,149483
+2,4202404,Blumenau (SC),SC,capital de intermediaria,A,175212
+2,4203006,Caçador (SC),SC,capital de intermediaria,A,35681
+2,4204202,Chapecó (SC),SC,capital de intermediaria,A,118788
+2,4204608,Criciúma (SC),SC,capital de intermediaria,A,104585
+2,4209102,Joinville (SC),SC,capital de intermediaria,A,280866
+2,4209300,Lages (SC),SC,capital de intermediaria,A,82327
+2,3503208,Araraquara (SP),SP,capital de intermediaria,A,132230
+2,3502804,Araçatuba (SP),SP,capital de intermediaria,A,111202
+2,3506003,Bauru (SP),SP,capital de intermediaria,A,200245
+2,3509502,Campinas (SP),SP,capital de intermediaria,A,574086
+2,3529005,Marília (SP),SP,capital de intermediaria,A,125424
+2,3541406,Presidente Prudente (SP),SP,capital de intermediaria,A,122679
+2,3543402,Ribeirão Preto (SP),SP,capital de intermediaria,A,376780
+2,3549805,São José do Rio Preto (SP),SP,capital de intermediaria,A,258549
+2,2905701,Camaçari (BA),BA,demais municipios,A,216243
+2,2914802,Itabuna (BA),BA,demais municipios,A,112090
+2,3200409,Anchieta (ES),ES,demais municipios,A,21056
+2,3200607,Aracruz (ES),ES,demais municipios,A,50788
+2,3201407,Castelo (ES),ES,demais municipios,A,22934
+2,3201902,Domingos Martins (ES),ES,demais municipios,A,27671
+2,3202405,Guarapari (ES),ES,demais municipios,A,99680
+2,3102605,Andradas (MG),MG,demais municipios,A,23979
+2,3104205,Arcos (MG),MG,demais municipios,A,25254
+2,3107406,Bom Despacho (MG),MG,demais municipios,A,31158
+2,3109006,Brumadinho (MG),MG,demais municipios,A,26436
+2,3110004,Caeté (MG),MG,demais municipios,A,22516
+2,3118007,Congonhas (MG),MG,demais municipios,A,28069
+2,3119401,Coronel Fabriciano (MG),MG,demais municipios,A,52187
+2,3125101,Extrema (MG),MG,demais municipios,A,28137
+2,3130101,Igarapé (MG),MG,demais municipios,A,27589
+2,3131901,Itabirito (MG),MG,demais municipios,A,29935
+2,3133808,Itaúna (MG),MG,demais municipios,A,53874
+2,3137601,Lagoa Santa (MG),MG,demais municipios,A,40883
+2,3137205,Lagoa da Prata (MG),MG,demais municipios,A,27048
+2,3138401,Leopoldina (MG),MG,demais municipios,A,30955
+2,3139003,Machado (MG),MG,demais municipios,A,21815
+2,3140001,Mariana (MG),MG,demais municipios,A,35442
+2,3145208,Nova Serrana (MG),MG,demais municipios,A,57317
+2,3145901,Ouro Branco (MG),MG,demais municipios,A,21014
+2,3146107,Ouro Preto (MG),MG,demais municipios,A,45638
+2,3159605,Santa Rita do Sapucaí (MG),MG,demais municipios,A,22013
+2,3158953,Santana do Paraíso (MG),MG,demais municipios,A,23921
+2,3162104,São Gotardo (MG),MG,demais municipios,A,21382
+2,3168705,Timóteo (MG),MG,demais municipios,A,39141
+2,2607208,Ipojuca (PE),PE,demais municipios,A,61799
+2,4101507,Arapongas (PR),PR,demais municipios,A,61617
+2,4103701,Cambé (PR),PR,demais municipios,A,53824
+2,4104006,Campina Grande do Sul (PR),PR,demais municipios,A,24082
+2,4104907,Castro (PR),PR,demais municipios,A,38071
+2,4109609,Guaratuba (PR),PR,demais municipios,A,40799
+2,4109807,Ibiporã (PR),PR,demais municipios,A,26725
+2,4111803,Jacarezinho (PR),PR,demais municipios,A,20652
+2,4114807,Marialva (PR),PR,demais municipios,A,22322
+2,4115705,Matinhos (PR),PR,demais municipios,A,49052
+2,4117503,Paiçandu (PR),PR,demais municipios,A,22308
+2,4119954,Pontal do Paraná (PR),PR,demais municipios,A,41074
+2,4122404,Rolândia (PR),PR,demais municipios,A,34697
+2,4126256,Sarandi (PR),PR,demais municipios,A,57866
+2,3300233,Armação dos Búzios (RJ),RJ,demais municipios,A,33175
+2,3300407,Barra Mansa (RJ),RJ,demais municipios,A,89493
+2,3300308,Barra do Piraí (RJ),RJ,demais municipios,A,50875
+2,3302601,Mangaratiba (RJ),RJ,demais municipios,A,47949
+2,3302700,Maricá (RJ),RJ,demais municipios,A,123032
+2,3303302,Niterói (RJ),RJ,demais municipios,A,254466
+2,3303807,Paraty (RJ),RJ,demais municipios,A,32355
+2,3304524,Rio das Ostras (RJ),RJ,demais municipios,A,103446
+2,3305505,Saquarema (RJ),RJ,demais municipios,A,74898
+2,3305802,Teresópolis (RJ),RJ,demais municipios,A,102752
+2,3306206,Vassouras (RJ),RJ,demais municipios,A,21276
+2,4301057,Arroio do Sal (RS),RS,demais municipios,A,20807
+2,4303905,Campo Bom (RS),RS,demais municipios,A,32350
+2,4304630,Capão da Canoa (RS),RS,demais municipios,A,65680
+2,4305454,Cidreira (RS),RS,demais municipios,A,25565
+2,4307609,Estância Velha (RS),RS,demais municipios,A,23759
+2,4309100,Gramado (RS),RS,demais municipios,A,28867
+2,4309209,Gravataí (RS),RS,demais municipios,A,135659
+2,4309308,Guaíba (RS),RS,demais municipios,A,46545
+2,4310330,Imbé (RS),RS,demais municipios,A,35109
+2,4313508,Osório (RS),RS,demais municipios,A,30443
+2,4313904,Panambi (RS),RS,demais municipios,A,21541
+2,4315602,Rio Grande (RS),RS,demais municipios,A,117218
+2,4319901,Sapiranga (RS),RS,demais municipios,A,38901
+2,4318705,São Leopoldo (RS),RS,demais municipios,A,112114
+2,4323804,Xangri-lá (RS),RS,demais municipios,A,25345
+2,4201307,Araquari (SC),SC,demais municipios,A,23304
+2,4202008,Balneário Camboriú (SC),SC,demais municipios,A,97348
+2,4212809,Balneário Piçarras (SC),SC,demais municipios,A,21501
+2,4202107,Barra Velha (SC),SC,demais municipios,A,33482
+2,4202453,Bombinhas (SC),SC,demais municipios,A,27341
+2,4203204,Camboriú (SC),SC,demais municipios,A,47398
+2,4205704,Garopaba (SC),SC,demais municipios,A,22075
+2,4205902,Gaspar (SC),SC,demais municipios,A,34952
+2,4206504,Guaramirim (SC),SC,demais municipios,A,21393
+2,4207304,Imbituba (SC),SC,demais municipios,A,36270
+2,4208302,Itapema (SC),SC,demais municipios,A,58248
+2,4208450,Itapoá (SC),SC,demais municipios,A,30625
+2,4207007,Içara (SC),SC,demais municipios,A,29089
+2,4208807,Jaguaruna (SC),SC,demais municipios,A,28749
+2,4208906,Jaraguá do Sul (SC),SC,demais municipios,A,87205
+2,4209409,Laguna (SC),SC,demais municipios,A,31247
+2,4211306,Navegantes (SC),SC,demais municipios,A,46534
+2,4212502,Penha (SC),SC,demais municipios,A,23822
+2,4216206,São Francisco do Sul (SC),SC,demais municipios,A,44014
+2,4218004,Tijucas (SC),SC,demais municipios,A,25364
+2,3501608,Americana (SP),SP,demais municipios,A,124546
+2,3502903,Araçoiaba da Serra (SP),SP,demais municipios,A,21728
+2,3503802,Artur Nogueira (SP),SP,demais municipios,A,25966
+2,3505906,Batatais (SP),SP,demais municipios,A,30977
+2,3506102,Bebedouro (SP),SP,demais municipios,A,39392
+2,3506359,Bertioga (SP),SP,demais municipios,A,66712
+2,3507001,Boituva (SP),SP,demais municipios,A,34679
+2,3510401,Capivari (SP),SP,demais municipios,A,25165
+2,3511508,Cerquilho (SP),SP,demais municipios,A,22587
+2,3512803,Cosmópolis (SP),SP,demais municipios,A,29947
+2,3513504,Cubatão (SP),SP,demais municipios,A,52621
+2,3515186,Espírito Santo do Pinhal (SP),SP,demais municipios,A,20736
+2,3516705,Garça (SP),SP,demais municipios,A,22042
+2,3518701,Guarujá (SP),SP,demais municipios,A,180594
+2,3517406,Guaíra (SP),SP,demais municipios,A,20377
+2,3519071,Hortolândia (SP),SP,demais municipios,A,111613
+2,3519600,Ibitinga (SP),SP,demais municipios,A,33321
+2,3519709,Ibiúna (SP),SP,demais municipios,A,56284
+2,3520400,Ilhabela (SP),SP,demais municipios,A,21997
+2,3520509,Indaiatuba (SP),SP,demais municipios,A,119194
+2,3522109,Itanhaém (SP),SP,demais municipios,A,104825
+2,3522604,Itapira (SP),SP,demais municipios,A,36967
+2,3523206,Itararé (SP),SP,demais municipios,A,23866
+2,3524006,Itupeva (SP),SP,demais municipios,A,35319
+2,3522703,Itápolis (SP),SP,demais municipios,A,23410
+2,3524303,Jaboticabal (SP),SP,demais municipios,A,39895
+2,3524402,Jacareí (SP),SP,demais municipios,A,113720
+2,3524709,Jaguariúna (SP),SP,demais municipios,A,27623
+2,3525102,Jardinópolis (SP),SP,demais municipios,A,23144
+2,3525706,José Bonifácio (SP),SP,demais municipios,A,20202
+2,3526704,Leme (SP),SP,demais municipios,A,50606
+2,3526803,Lençóis Paulista (SP),SP,demais municipios,A,32723
+2,3527207,Lorena (SP),SP,demais municipios,A,41340
+2,3527306,Louveira (SP),SP,demais municipios,A,21971
+2,3529302,Matão (SP),SP,demais municipios,A,40381
+2,3530300,Mirassol (SP),SP,demais municipios,A,33383
+2,3530508,Mococa (SP),SP,demais municipios,A,36689
+2,3530805,Mogi Mirim (SP),SP,demais municipios,A,47831
+2,3531100,Mongaguá (SP),SP,demais municipios,A,61564
+2,3531308,Monte Alto (SP),SP,demais municipios,A,25729
+2,3531803,Monte Mor (SP),SP,demais municipios,A,32812
+2,3533403,Nova Odessa (SP),SP,demais municipios,A,31655
+2,3533502,Novo Horizonte (SP),SP,demais municipios,A,23081
+2,3533908,Olímpia (SP),SP,demais municipios,A,33514
+2,3535507,Paraguaçu Paulista (SP),SP,demais municipios,A,21123
+2,3536505,Paulínia (SP),SP,demais municipios,A,49157
+2,3536703,Pederneiras (SP),SP,demais municipios,A,23580
+2,3537107,Pedreira (SP),SP,demais municipios,A,21303
+2,3537305,Penápolis (SP),SP,demais municipios,A,33377
+2,3537602,Peruíbe (SP),SP,demais municipios,A,60702
+2,3539301,Pirassununga (SP),SP,demais municipios,A,42329
+2,3540606,Porto Feliz (SP),SP,demais municipios,A,28607
+2,3540705,Porto Ferreira (SP),SP,demais municipios,A,27043
+2,3545209,Salto (SP),SP,demais municipios,A,64207
+2,3545803,Santa Bárbara d'Oeste (SP),SP,demais municipios,A,87271
+2,3546405,Santa Cruz do Rio Pardo (SP),SP,demais municipios,A,25130
+2,3546801,Santa Isabel (SP),SP,demais municipios,A,30915
+2,3551603,Serra Negra (SP),SP,demais municipios,A,20296
+2,3551504,Serrana (SP),SP,demais municipios,A,20966
+2,3551702,Sertãozinho (SP),SP,demais municipios,A,64639
+2,3552106,Socorro (SP),SP,demais municipios,A,26458
+2,3552403,Sumaré (SP),SP,demais municipios,A,130045
+2,3550407,São Pedro (SP),SP,demais municipios,A,22342
+2,3550704,São Sebastião (SP),SP,demais municipios,A,60634
+2,3553708,Taquaritinga (SP),SP,demais municipios,A,28315
+2,3555406,Ubatuba (SP),SP,demais municipios,A,89364
+2,3556206,Valinhos (SP),SP,demais municipios,A,61416
+2,3556404,Vargem Grande do Sul (SP),SP,demais municipios,A,21290
+2,3556701,Vinhedo (SP),SP,demais municipios,A,36859
+3,1301209,Coari (AM),AM,capital de imediata,A,27203
+3,1301902,Itacoatiara (AM),AM,capital de imediata,A,45155
+3,1302504,Manacapuru (AM),AM,capital de imediata,A,44330
+3,1304062,Tabatinga (AM),AM,capital de imediata,A,23732
+3,2928109,Santa Maria da Vitória (BA),BA,capital de imediata,A,23777
+3,5201108,Anápolis (GO),GO,capital de imediata,A,207750
+3,5204508,Caldas Novas (GO),GO,capital de imediata,A,82318
+3,5205109,Catalão (GO),GO,capital de imediata,A,63469
+3,5210000,Inhumas (GO),GO,capital de imediata,A,29257
+3,5210208,Iporá (GO),GO,capital de imediata,A,22010
+3,5213103,Mineiros (GO),GO,capital de imediata,A,39290
+3,5218508,Quirinópolis (GO),GO,capital de imediata,A,26637
+3,5221601,Uruaçu (GO),GO,capital de imediata,A,25205
+3,5200258,Águas Lindas de Goiás (GO),GO,capital de imediata,A,103326
+3,2101400,Balsas (MA),MA,capital de imediata,A,45899
+3,3134202,Ituiutaba (MG),MG,capital de imediata,A,58499
+3,3134400,Iturama (MG),MG,capital de imediata,A,21924
+3,3135209,Januária (MG),MG,capital de imediata,A,40081
+3,3143104,Monte Carmelo (MG),MG,capital de imediata,A,28570
+3,3151206,Pirapora (MG),MG,capital de imediata,A,29665
+3,3161106,São Francisco (MG),MG,capital de imediata,A,29883
+3,3170404,Unaí (MG),MG,capital de imediata,A,51905
+3,5001102,Aquidauana (MS),MS,capital de imediata,A,25620
+3,5005707,Naviraí (MS),MS,capital de imediata,A,27223
+3,5006200,Nova Andradina (MS),MS,capital de imediata,A,27101
+3,5006309,Paranaíba (MS),MS,capital de imediata,A,26286
+3,5006606,Ponta Porã (MS),MS,capital de imediata,A,49439
+3,5008305,Três Lagoas (MS),MS,capital de imediata,A,72298
+3,5100250,Alta Floresta (MT),MT,capital de imediata,A,31331
+3,5105101,Juara (MT),MT,capital de imediata,A,20668
+3,5105150,Juína (MT),MT,capital de imediata,A,26797
+3,5106752,Pontes e Lacerda (MT),MT,capital de imediata,A,27108
+3,5107040,Primavera do Leste (MT),MT,capital de imediata,A,40076
+3,5107925,Sorriso (MT),MT,capital de imediata,A,50243
+3,5107958,Tangará da Serra (MT),MT,capital de imediata,A,51088
+3,1503606,Itaituba (PA),PA,capital de imediata,A,58795
+3,1505536,Parauapebas (PA),PA,capital de imediata,A,128238
+3,1508407,Xinguara (PA),PA,capital de imediata,A,27302
+3,4108304,Foz do Iguaçu (PR),PR,capital de imediata,A,136826
+3,4114609,Marechal Cândido Rondon (PR),PR,capital de imediata,A,29700
+3,4127700,Toledo (PR),PR,capital de imediata,A,77590
+3,4128104,Umuarama (PR),PR,capital de imediata,A,64150
+3,1100023,Ariquemes (RO),RO,capital de imediata,A,56860
+3,1100049,Cacoal (RO),RO,capital de imediata,A,52614
+3,1100114,Jaru (RO),RO,capital de imediata,A,31869
+3,1100304,Vilhena (RO),RO,capital de imediata,A,52256
+3,3502101,Andradina (SP),SP,capital de imediata,A,33100
+3,3514403,Dracena (SP),SP,capital de imediata,A,25418
+3,3515509,Fernandópolis (SP),SP,capital de imediata,A,40633
+3,3524808,Jales (SP),SP,capital de imediata,A,28210
+3,3546603,Santa Fé do Sul (SP),SP,capital de imediata,A,20602
+3,3557105,Votuporanga (SP),SP,capital de imediata,A,52852
+3,1716109,Paraíso do Tocantins (TO),TO,capital de imediata,A,26535
+3,1718204,Porto Nacional (TO),TO,capital de imediata,A,38471
+3,1200203,Cruzeiro do Sul (AC),AC,capital de intermediaria,A,40027
+3,1303403,Parintins (AM),AM,capital de intermediaria,A,39203
+3,1304203,Tefé (AM),AM,capital de intermediaria,A,27740
+3,2903201,Barreiras (BA),BA,capital de intermediaria,A,87183
+3,5211503,Itumbiara (GO),GO,capital de intermediaria,A,57879
+3,5212501,Luziânia (GO),GO,capital de intermediaria,A,109426
+3,5218003,Porangatu (GO),GO,capital de intermediaria,A,24995
+3,5218805,Rio Verde (GO),GO,capital de intermediaria,A,111421
+3,5220108,São Luís de Montes Belos (GO),GO,capital de intermediaria,A,20940
+3,3170206,Uberlândia (MG),MG,capital de intermediaria,A,393239
+3,5003207,Corumbá (MS),MS,capital de intermediaria,A,46615
+3,5003702,Dourados (MS),MS,capital de intermediaria,A,124877
+3,5101803,Barra do Garças (MT),MT,capital de intermediaria,A,39517
+3,5102504,Cáceres (MT),MT,capital de intermediaria,A,49208
+3,5107602,Rondonópolis (MT),MT,capital de intermediaria,A,126497
+3,5107909,Sinop (MT),MT,capital de intermediaria,A,95524
+3,1506138,Redenção (PA),PA,capital de intermediaria,A,43491
+3,2210607,São Raimundo Nonato (PI),PI,capital de intermediaria,A,24077
+3,1100122,Ji-Paraná (RO),RO,capital de intermediaria,A,71745
+3,1702109,Araguaína (TO),TO,capital de intermediaria,A,87499
+3,1709500,Gurupi (TO),TO,capital de intermediaria,A,45475
+3,1300300,Autazes (AM),AM,demais municipios,A,22196
+3,1301704,Humaitá (AM),AM,demais municipios,A,22008
+3,1301852,Iranduba (AM),AM,demais municipios,A,36827
+3,1302900,Maués (AM),AM,demais municipios,A,23752
+3,1303536,Presidente Figueiredo (AM),AM,demais municipios,A,20770
+3,2905909,Campo Alegre de Lourdes (BA),BA,demais municipios,A,23582
+3,2907103,Carinhanha (BA),BA,demais municipios,A,20038
+3,2909307,Correntina (BA),BA,demais municipios,A,22302
+3,2919553,Luís Eduardo Magalhães (BA),BA,demais municipios,A,56397
+3,2928901,São Desidério (BA),BA,demais municipios,A,21521
+3,5200308,Alexânia (GO),GO,demais municipios,A,20046
+3,5203302,Bela Vista de Goiás (GO),GO,demais municipios,A,20897
+3,5206206,Cristalina (GO),GO,demais municipios,A,31941
+3,5208004,Formosa (GO),GO,demais municipios,A,63499
+3,5208806,Goianira (GO),GO,demais municipios,A,35375
+3,5208608,Goianésia (GO),GO,demais municipios,A,37710
+3,5209101,Goiatuba (GO),GO,demais municipios,A,21388
+3,5210406,Itaberaí (GO),GO,demais municipios,A,25405
+3,5211800,Jaraguá (GO),GO,demais municipios,A,27258
+3,5211909,Jataí (GO),GO,demais municipios,A,56664
+3,5213806,Morrinhos (GO),GO,demais municipios,A,31384
+3,5214606,Niquelândia (GO),GO,demais municipios,A,26813
+3,5217609,Planaltina (GO),GO,demais municipios,A,54377
+3,5218300,Posse (GO),GO,demais municipios,A,20217
+3,5219308,Santa Helena de Goiás (GO),GO,demais municipios,A,20491
+3,5219753,Santo Antônio do Descoberto (GO),GO,demais municipios,A,35171
+3,3103504,Araguari (MG),MG,demais municipios,A,67993
+3,3108602,Brasília de Minas (MG),MG,demais municipios,A,20667
+3,3119302,Coromandel (MG),MG,demais municipios,A,20087
+3,3136306,João Pinheiro (MG),MG,demais municipios,A,28265
+3,3147006,Paracatu (MG),MG,demais municipios,A,49005
+3,5005400,Maracaju (MS),MS,demais municipios,A,21603
+3,5007901,Sidrolândia (MS),MS,demais municipios,A,29305
+3,5102637,Campo Novo do Parecis (MT),MT,demais municipios,A,21199
+3,5102678,Campo Verde (MT),MT,demais municipios,A,22730
+3,5105259,Lucas do Rio Verde (MT),MT,demais municipios,A,35002
+3,5106224,Nova Mutum (MT),MT,demais municipios,A,25371
+3,1502152,Canaã dos Carajás (PA),PA,demais municipios,A,35460
+3,1502707,Conceição do Araguaia (PA),PA,demais municipios,A,27479
+3,1503903,Juruti (PA),PA,demais municipios,A,22120
+3,1507300,São Félix do Xingu (PA),PA,demais municipios,A,37821
+3,4115804,Medianeira (PR),PR,demais municipios,A,26722
+3,1100130,Machadinho D'Oeste (RO),RO,demais municipios,A,23282
+3,1100155,Ouro Preto do Oeste (RO),RO,demais municipios,A,21939
+3,1100189,Pimenta Bueno (RO),RO,demais municipios,A,21088
+3,1100288,Rolim de Moura (RO),RO,demais municipios,A,32308
+3,3541307,Presidente Epitácio (SP),SP,demais municipios,A,23632
+4,2706307,Palmeira dos Índios (AL),AL,capital de imediata,A,38551
+4,2709301,União dos Palmares (AL),AL,capital de imediata,A,31228
+4,2913903,Ipiaú (BA),BA,capital de imediata,A,23641
+4,2916401,Itapetinga (BA),BA,capital de imediata,A,36084
+4,2918001,Jequié (BA),BA,capital de imediata,A,89569
+4,2930501,Serrinha (BA),BA,capital de imediata,A,51979
+4,2302800,Canindé (CE),CE,capital de imediata,A,44699
+4,2306306,Itapajé (CE),CE,capital de imediata,A,23846
+4,3200201,Alegre (ES),ES,capital de imediata,A,20517
+4,3203908,Nova Venécia (ES),ES,capital de imediata,A,30308
+4,2103208,Chapadinha (MA),MA,capital de imediata,A,39008
+4,3132404,Itajubá (MG),MG,capital de imediata,A,48407
+4,1502301,Capitão Poço (PA),PA,capital de imediata,A,32425
+4,2506301,Guarabira (PB),PB,capital de imediata,A,30534
+4,2606002,Garanhuns (PE),PE,capital de imediata,A,75451
+4,2608909,Limoeiro (PE),PE,capital de imediata,A,30951
+4,2614501,Surubim (PE),PE,capital de imediata,A,36359
+4,2203701,Esperantina (PI),PI,capital de imediata,A,21911
+4,3302205,Itaperuna (RJ),RJ,capital de imediata,A,60975
+4,3304706,Santo Antônio de Pádua (RJ),RJ,capital de imediata,A,25749
+4,3306008,Três Rios (RJ),RJ,capital de imediata,A,41294
+4,3306107,Valença (RJ),RJ,capital de imediata,A,40357
+4,2411205,Santa Cruz (RN),RN,capital de imediata,A,21273
+4,4302105,Bento Gonçalves (RS),RS,capital de imediata,A,64356
+4,4311403,Lajeado (RS),RS,capital de imediata,A,51609
+4,4215802,São Bento do Sul (SC),SC,capital de imediata,A,39803
+4,2804508,Nossa Senhora da Glória (SE),SE,capital de imediata,A,25266
+4,3507605,Bragança Paulista (SP),SP,capital de imediata,A,90923
+4,3513405,Cruzeiro (SP),SP,capital de imediata,A,35919
+4,3525904,Jundiaí (SP),SP,capital de imediata,A,207882
+4,2700300,Arapiraca (AL),AL,capital de intermediaria,A,120158
+4,2312908,Sobral (CE),CE,capital de intermediaria,A,101079
+4,3136702,Juiz de Fora (MG),MG,capital de intermediaria,A,307905
+4,1501808,Breves (PA),PA,capital de intermediaria,A,36653
+4,2504009,Campina Grande (PB),PB,capital de intermediaria,A,215660
+4,2604106,Caruaru (PE),PE,capital de intermediaria,A,221349
+4,4305108,Caxias do Sul (RS),RS,capital de intermediaria,A,250940
+4,3552205,Sorocaba (SP),SP,capital de intermediaria,A,355399
+4,3549904,São José dos Campos (SP),SP,capital de intermediaria,A,320850
+4,2901007,Amargosa (BA),BA,demais municipios,A,23157
+4,2913705,Inhambupe (BA),BA,demais municipios,A,22820
+4,2914000,Ipirá (BA),BA,demais municipios,A,43004
+4,2916500,Itapicuru (BA),BA,demais municipios,A,23712
+4,2917607,Jaguaquara (BA),BA,demais municipios,A,28572
+4,2923803,Paripiranga (BA),BA,demais municipios,A,20320
+4,2926301,Riachão do Jacuípe (BA),BA,demais municipios,A,24523
+4,2307601,Limoeiro do Norte (CE),CE,demais municipios,A,34536
+4,2313104,Tabuleiro do Norte (CE),CE,demais municipios,A,20538
+4,2313401,Tianguá (CE),CE,demais municipios,A,41698
+4,3144300,Nanuque (MG),MG,demais municipios,A,20906
+4,1500206,Acará (PA),PA,demais municipios,A,29988
+4,1501303,Barcarena (PA),PA,demais municipios,A,61426
+4,1501501,Benevides (PA),PA,demais municipios,A,32537
+4,1506500,Santa Izabel do Pará (PA),PA,demais municipios,A,33801
+4,1507607,São Miguel do Guamá (PA),PA,demais municipios,A,25130
+4,2601904,Bezerros (PE),PE,demais municipios,A,39958
+4,2602100,Bom Conselho (PE),PE,demais municipios,A,26255
+4,2602209,Bom Jardim (PE),PE,demais municipios,A,22853
+4,2602308,Bonito (PE),PE,demais municipios,A,22092
+4,2606408,Gravatá (PE),PE,demais municipios,A,62164
+4,4113205,Lapa (PR),PR,demais municipios,A,26823
+4,3300605,Bom Jesus do Itabapoana (RJ),RJ,demais municipios,A,22552
+4,3304805,São Fidélis (RJ),RJ,demais municipios,A,26492
+4,2401008,Apodi (RN),RN,demais municipios,A,23024
+4,4304408,Canela (RS),RS,demais municipios,A,28207
+4,4307906,Farroupilha (RS),RS,demais municipios,A,38143
+4,4314050,Parobé (RS),RS,demais municipios,A,27195
+4,4315701,Rio Pardo (RS),RS,demais municipios,A,21235
+4,4322608,Venâncio Aires (RS),RS,demais municipios,A,39144
+4,4207502,Indaial (SC),SC,demais municipios,A,34854
+4,4218202,Timbó (SC),SC,demais municipios,A,21801
+4,2805604,Porto da Folha (SE),SE,demais municipios,A,20691
+4,2807105,Simão Dias (SE),SE,demais municipios,A,26375
+4,2807402,Tobias Barreto (SE),SE,demais municipios,A,30938
+4,3504107,Atibaia (SP),SP,demais municipios,A,88529
+4,3508405,Cabreúva (SP),SP,demais municipios,A,22186
+4,3509601,Campo Limpo Paulista (SP),SP,demais municipios,A,35750
+4,3509700,Campos do Jordão (SP),SP,demais municipios,A,31415
+4,3510203,Capão Bonito (SP),SP,demais municipios,A,23981
+4,3508504,Caçapava (SP),SP,demais municipios,A,46784
+4,3516309,Francisco Morato (SP),SP,demais municipios,A,73395
+4,3516408,Franco da Rocha (SP),SP,demais municipios,A,65197
+4,3523404,Itatiba (SP),SP,demais municipios,A,59910
+4,3523909,Itu (SP),SP,demais municipios,A,86532
+4,3525201,Jarinu (SP),SP,demais municipios,A,22145
+4,3528403,Mairinque (SP),SP,demais municipios,A,31526
+4,3537800,Piedade (SP),SP,demais municipios,A,34166
+4,3538006,Pindamonhangaba (SP),SP,demais municipios,A,79431
+4,3545308,Salto de Pirapora (SP),SP,demais municipios,A,25103
+4,3550605,São Roque (SP),SP,demais municipios,A,43666
+4,3554805,Tremembé (SP),SP,demais municipios,A,20903
+4,3556453,Vargem Grande Paulista (SP),SP,demais municipios,A,25111
+4,3557006,Votorantim (SP),SP,demais municipios,A,58052
+4,3556503,Várzea Paulista (SP),SP,demais municipios,A,51194
+5,2702405,Delmiro Gouveia (AL),AL,capital de imediata,A,28970
+5,2706703,Penedo (AL),AL,capital de imediata,A,30169
+5,2708006,Santana do Ipanema (AL),AL,capital de imediata,A,25795
+5,2708600,São Miguel dos Campos (AL),AL,capital de imediata,A,23570
+5,2900702,Alagoinhas (BA),BA,capital de imediata,A,85685
+5,2903904,Bom Jesus da Lapa (BA),BA,capital de imediata,A,35621
+5,2904605,Brumado (BA),BA,capital de imediata,A,43837
+5,2908408,Conceição do Coité (BA),BA,capital de imediata,A,48925
+5,2909802,Cruz das Almas (BA),BA,capital de imediata,A,35771
+5,2907806,Cícero Dantas (BA),BA,capital de imediata,A,23797
+5,2910701,Euclides da Cunha (BA),BA,capital de imediata,A,39780
+5,2910727,Eunápolis (BA),BA,capital de imediata,A,64623
+5,2914703,Itaberaba (BA),BA,capital de imediata,A,37817
+5,2917508,Jacobina (BA),BA,capital de imediata,A,55751
+5,2918100,Jeremoabo (BA),BA,capital de imediata,A,26091
+5,2926608,Ribeira do Pombal (BA),BA,capital de imediata,A,36594
+5,2929909,Seabra (BA),BA,capital de imediata,A,31227
+5,2930105,Senhor do Bonfim (BA),BA,capital de imediata,A,44380
+5,2931350,Teixeira de Freitas (BA),BA,capital de imediata,A,81927
+5,2932903,Valença (BA),BA,capital de imediata,A,61394
+5,2933604,Xique-Xique (BA),BA,capital de imediata,A,23269
+5,2300200,Acaraú (CE),CE,capital de imediata,A,35188
+5,2301109,Aracati (CE),CE,capital de imediata,A,41095
+5,2302503,Brejo Santo (CE),CE,capital de imediata,A,25195
+5,2302602,Camocim (CE),CE,capital de imediata,A,32511
+5,2305407,Icó (CE),CE,capital de imediata,A,35756
+5,2306405,Itapipoca (CE),CE,capital de imediata,A,68312
+5,2311801,Russas (CE),CE,capital de imediata,A,43958
+5,2312304,São Benedito (CE),CE,capital de imediata,A,25965
+5,2313302,Tauá (CE),CE,capital de imediata,A,35351
+5,2100055,Açailândia (MA),MA,capital de imediata,A,55240
+5,2101202,Bacabal (MA),MA,capital de imediata,A,47761
+5,2101608,Barra do Corda (MA),MA,capital de imediata,A,47262
+5,2101707,Barreirinhas (MA),MA,capital de imediata,A,36132
+5,2103307,Codó (MA),MA,capital de imediata,A,52008
+5,2103505,Colinas (MA),MA,capital de imediata,A,20729
+5,2105401,Itapecuru Mirim (MA),MA,capital de imediata,A,30181
+5,2108603,Pinheiro (MA),MA,capital de imediata,A,39190
+5,2112209,Timon (MA),MA,capital de imediata,A,81809
+5,2112506,Tutóia (MA),MA,capital de imediata,A,24228
+5,2112803,Viana (MA),MA,capital de imediata,A,24397
+5,3101706,Almenara (MG),MG,capital de imediata,A,23378
+5,3103405,Araçuaí (MG),MG,capital de imediata,A,21296
+5,3112307,Capelinha (MG),MG,capital de imediata,A,23974
+5,3113305,Carangola (MG),MG,capital de imediata,A,20013
+5,3113404,Caratinga (MG),MG,capital de imediata,A,53824
+5,3120904,Curvelo (MG),MG,capital de imediata,A,46262
+5,3121605,Diamantina (MG),MG,capital de imediata,A,31501
+5,3128006,Guanhães (MG),MG,capital de imediata,A,19978
+5,3135100,Janaúba (MG),MG,capital de imediata,A,38172
+5,3145604,Oliveira (MG),MG,capital de imediata,A,23425
+5,3151503,Piumhi (MG),MG,capital de imediata,A,21909
+5,3157005,Salinas (MG),MG,capital de imediata,A,26068
+5,3169406,Três Pontas (MG),MG,capital de imediata,A,29968
+5,1500107,Abaetetuba (PA),PA,capital de imediata,A,70614
+5,1501709,Bragança (PA),PA,capital de imediata,A,55059
+5,1502103,Cametá (PA),PA,capital de imediata,A,59410
+5,1502202,Capanema (PA),PA,capital de imediata,A,34865
+5,1505304,Oriximiná (PA),PA,capital de imediata,A,28602
+5,1505502,Paragominas (PA),PA,capital de imediata,A,46943
+5,1508100,Tucuruí (PA),PA,capital de imediata,A,41530
+5,2503704,Cajazeiras (PB),PB,capital de imediata,A,36996
+5,2508901,Mamanguape (PB),PB,capital de imediata,A,21457
+5,2509701,Monteiro (PB),PB,capital de imediata,A,23813
+5,2600104,Afogados da Ingazeira (PE),PE,capital de imediata,A,26982
+5,2601102,Araripina (PE),PE,capital de imediata,A,56897
+5,2601201,Arcoverde (PE),PE,capital de imediata,A,40157
+5,2601409,Barreiros (PE),PE,capital de imediata,A,20063
+5,2601706,Belo Jardim (PE),PE,capital de imediata,A,49708
+5,2604007,Carpina (PE),PE,capital de imediata,A,40065
+5,2605202,Escada (PE),PE,capital de imediata,A,30547
+5,2606200,Goiana (PE),PE,capital de imediata,A,49736
+5,2610004,Palmares (PE),PE,capital de imediata,A,28473
+5,2612208,Salgueiro (PE),PE,capital de imediata,A,34336
+5,2616407,Vitória de Santo Antão (PE),PE,capital de imediata,A,74373
+5,2201200,Barras (PI),PI,capital de imediata,A,25621
+5,2202208,Campo Maior (PI),PI,capital de imediata,A,25993
+5,2207009,Oeiras (PI),PI,capital de imediata,A,25145
+5,2208403,Piripiri (PI),PI,capital de imediata,A,34533
+5,4119608,Pitanga (PR),PR,capital de imediata,A,20003
+5,2400208,Açu (RN),RN,capital de imediata,A,29656
+5,2403103,Currais Novos (RN),RN,capital de imediata,A,22394
+5,4301602,Bagé (RS),RS,capital de imediata,A,62782
+5,4303004,Cachoeira do Sul (RS),RS,capital de imediata,A,47116
+5,4303509,Camaquã (RS),RS,capital de imediata,A,34963
+5,4317103,Sant'Ana do Livramento (RS),RS,capital de imediata,A,46517
+5,4318002,São Borja (RS),RS,capital de imediata,A,30047
+5,4318309,São Gabriel (RS),RS,capital de imediata,A,32549
+5,4210100,Mafra (SC),SC,capital de imediata,A,29736
+5,2802106,Estância (SE),SE,capital de imediata,A,40551
+5,2803500,Lagarto (SE),SE,capital de imediata,A,61322
+5,2911709,Guanambi (BA),BA,capital de intermediaria,A,56621
+5,2913606,Ilhéus (BA),BA,capital de intermediaria,A,113594
+5,2914604,Irecê (BA),BA,capital de intermediaria,A,41787
+5,2918407,Juazeiro (BA),BA,capital de intermediaria,A,127731
+5,2924009,Paulo Afonso (BA),BA,capital de intermediaria,A,61965
+5,2928703,Santo Antônio de Jesus (BA),BA,capital de intermediaria,A,61939
+5,2933307,Vitória da Conquista (BA),BA,capital de intermediaria,A,199847
+5,2304103,Crateús (CE),CE,capital de intermediaria,A,42352
+5,2305506,Iguatu (CE),CE,capital de intermediaria,A,54217
+5,2311306,Quixadá (CE),CE,capital de intermediaria,A,47650
+5,3204906,São Mateus (ES),ES,capital de intermediaria,A,77829
+5,2103000,Caxias (MA),MA,capital de intermediaria,A,73132
+5,2105302,Imperatriz (MA),MA,capital de intermediaria,A,139663
+5,2109106,Presidente Dutra (MA),MA,capital de intermediaria,A,23443
+5,2109908,Santa Inês (MA),MA,capital de intermediaria,A,40810
+5,3168606,Teófilo Otoni (MG),MG,capital de intermediaria,A,73649
+5,1500602,Altamira (PA),PA,capital de intermediaria,A,68919
+5,1502400,Castanhal (PA),PA,capital de intermediaria,A,98253
+5,1504208,Marabá (PA),PA,capital de intermediaria,A,133020
+5,1506807,Santarém (PA),PA,capital de intermediaria,A,146496
+5,2510808,Patos (PB),PB,capital de intermediaria,A,54908
+5,2516201,Sousa (PB),PB,capital de intermediaria,A,35020
+5,2611101,Petrolina (PE),PE,capital de intermediaria,A,201233
+5,2613909,Serra Talhada (PE),PE,capital de intermediaria,A,59039
+5,2203909,Floriano (PI),PI,capital de intermediaria,A,32046
+5,2207702,Parnaíba (PI),PI,capital de intermediaria,A,76656
+5,2208007,Picos (PI),PI,capital de intermediaria,A,45008
+5,2402006,Caicó (RN),RN,capital de intermediaria,A,33784
+5,4322400,Uruguaiana (RS),RS,capital de intermediaria,A,56323
+5,2802908,Itabaiana (SE),SE,capital de intermediaria,A,56226
+5,2702306,Coruripe (AL),AL,demais municipios,A,26313
+5,2704500,Maragogi (AL),AL,demais municipios,A,21069
+5,2704708,Marechal Deodoro (AL),AL,demais municipios,A,33836
+5,2902104,Araci (BA),BA,demais municipios,A,34784
+5,2902708,Barra (BA),BA,demais municipios,A,27687
+5,2902906,Barra do Choça (BA),BA,demais municipios,A,22200
+5,2904902,Cachoeira (BA),BA,demais municipios,A,20019
+5,2905206,Caetité (BA),BA,demais municipios,A,33713
+5,2905800,Camamu (BA),BA,demais municipios,A,21696
+5,2906006,Campo Formoso (BA),BA,demais municipios,A,48622
+5,2906303,Canavieiras (BA),BA,demais municipios,A,22369
+5,2906501,Candeias (BA),BA,demais municipios,A,45046
+5,2906808,Cansanção (BA),BA,demais municipios,A,23856
+5,2906873,Capim Grosso (BA),BA,demais municipios,A,24144
+5,2907202,Casa Nova (BA),BA,demais municipios,A,41677
+5,2907509,Catu (BA),BA,demais municipios,A,28752
+5,2908507,Conceição do Jacuípe (BA),BA,demais municipios,A,20452
+5,2910057,Dias d'Ávila (BA),BA,demais municipios,A,43809
+5,2910503,Entre Rios (BA),BA,demais municipios,A,29687
+5,2914505,Irará (BA),BA,demais municipios,A,20054
+5,2914901,Itacaré (BA),BA,demais municipios,A,20543
+5,2915601,Itamaraju (BA),BA,demais municipios,A,35757
+5,2917003,Itiúba (BA),BA,demais municipios,A,23732
+5,2917706,Jaguarari (BA),BA,demais municipios,A,21759
+5,2919504,Livramento de Nossa Senhora (BA),BA,demais municipios,A,26711
+5,2919801,Macaúbas (BA),BA,demais municipios,A,31514
+5,2920601,Maragogipe (BA),BA,demais municipios,A,24703
+5,2920700,Maraú (BA),BA,demais municipios,A,20419
+5,2921005,Mata de São João (BA),BA,demais municipios,A,36022
+5,2921500,Monte Santo (BA),BA,demais municipios,A,40361
+5,2921708,Morro do Chapéu (BA),BA,demais municipios,A,26042
+5,2922003,Mucuri (BA),BA,demais municipios,A,24552
+5,2923001,Nova Viçosa (BA),BA,demais municipios,A,27931
+5,2924405,Pilão Arcado (BA),BA,demais municipios,A,24394
+5,2925303,Porto Seguro (BA),BA,demais municipios,A,105378
+5,2925105,Poções (BA),BA,demais municipios,A,29739
+5,2925501,Prado (BA),BA,demais municipios,A,25045
+5,2925907,Quijingue (BA),BA,demais municipios,A,20128
+5,2926004,Remanso (BA),BA,demais municipios,A,25933
+5,2927002,Rio Real (BA),BA,demais municipios,A,23542
+5,2927705,Santa Cruz Cabrália (BA),BA,demais municipios,A,21082
+5,2928000,Santaluz (BA),BA,demais municipios,A,26235
+5,2928604,Santo Amaro (BA),BA,demais municipios,A,37344
+5,2928802,Santo Estêvão (BA),BA,demais municipios,A,31136
+5,2930154,Serra do Ramalho (BA),BA,demais municipios,A,20085
+5,2929206,São Francisco do Conde (BA),BA,demais municipios,A,25110
+5,2929305,São Gonçalo dos Campos (BA),BA,demais municipios,A,22502
+5,2929503,São Sebastião do Passé (BA),BA,demais municipios,A,25700
+5,2931905,Tucano (BA),BA,demais municipios,A,35859
+5,2933208,Vera Cruz (BA),BA,demais municipios,A,52793
+5,2300309,Acopiara (CE),CE,demais municipios,A,30322
+5,2300754,Amontada (CE),CE,demais municipios,A,22065
+5,2301000,Aquiraz (CE),CE,demais municipios,A,53395
+5,2301901,Barbalha (CE),CE,demais municipios,A,36675
+5,2302206,Beberibe (CE),CE,demais municipios,A,35541
+5,2302404,Boa Viagem (CE),CE,demais municipios,A,32091
+5,2303501,Cascavel (CE),CE,demais municipios,A,40664
+5,2304202,Crato (CE),CE,demais municipios,A,68370
+5,2304707,Granja (CE),CE,demais municipios,A,31814
+5,2305001,Guaraciaba do Norte (CE),CE,demais municipios,A,22934
+5,2305233,Horizonte (CE),CE,demais municipios,A,36381
+5,2305803,Ipu (CE),CE,demais municipios,A,23618
+5,2305902,Ipueiras (CE),CE,demais municipios,A,24104
+5,2306553,Itarema (CE),CE,demais municipios,A,20670
+5,2306900,Jaguaribe (CE),CE,demais municipios,A,20028
+5,2307700,Maranguape (CE),CE,demais municipios,A,50136
+5,2308104,Mauriti (CE),CE,demais municipios,A,26717
+5,2308401,Missão Velha (CE),CE,demais municipios,A,21208
+5,2308500,Mombaça (CE),CE,demais municipios,A,28311
+5,2308708,Morada Nova (CE),CE,demais municipios,A,36472
+5,2309607,Pacajus (CE),CE,demais municipios,A,35943
+5,2310209,Paracuru (CE),CE,demais municipios,A,24950
+5,2310308,Parambu (CE),CE,demais municipios,A,20015
+5,2310506,Pedra Branca (CE),CE,demais municipios,A,25443
+5,2310704,Pentecoste (CE),CE,demais municipios,A,21017
+5,2311405,Quixeramobim (CE),CE,demais municipios,A,44179
+5,2312205,Santa Quitéria (CE),CE,demais municipios,A,23445
+5,2312403,São Gonçalo do Amarante (CE),CE,demais municipios,A,33202
+5,2313500,Trairi (CE),CE,demais municipios,A,33639
+5,2314102,Viçosa do Ceará (CE),CE,demais municipios,A,31882
+5,2314003,Várzea Alegre (CE),CE,demais municipios,A,21465
+5,3200904,Barra de São Francisco (ES),ES,demais municipios,A,26608
+5,3202801,Itapemirim (ES),ES,demais municipios,A,27716
+5,3203320,Marataízes (ES),ES,demais municipios,A,30323
+5,3204559,Santa Maria de Jetibá (ES),ES,demais municipios,A,25466
+5,2102325,Buriticupu (MA),MA,demais municipios,A,25930
+5,2103604,Coroatá (MA),MA,demais municipios,A,28583
+5,2104800,Grajaú (MA),MA,demais municipios,A,37210
+5,2105708,Lago da Pedra (MA),MA,demais municipios,A,21273
+5,2110005,Santa Luzia (MA),MA,demais municipios,A,29180
+5,3107109,Boa Esperança (MG),MG,demais municipios,A,23015
+5,3107307,Bocaiúva (MG),MG,demais municipios,A,29403
+5,3124104,Esmeraldas (MG),MG,demais municipios,A,57792
+5,3132503,Itamarandiba (MG),MG,demais municipios,A,20982
+5,3134608,Jaboticatubas (MG),MG,demais municipios,A,22200
+5,3135050,Jaíba (MG),MG,demais municipios,A,21753
+5,3140704,Mateus Leme (MG),MG,demais municipios,A,25138
+5,3146008,Ouro Fino (MG),MG,demais municipios,A,21375
+5,3152204,Porteirinha (MG),MG,demais municipios,A,24647
+5,3160702,Santos Dumont (MG),MG,demais municipios,A,24758
+5,3172004,Visconde do Rio Branco (MG),MG,demais municipios,A,22732
+5,1500404,Alenquer (PA),PA,demais municipios,A,32783
+5,1501204,Baião (PA),PA,demais municipios,A,20865
+5,1501782,Breu Branco (PA),PA,demais municipios,A,22194
+5,1503309,Igarapé-Miri (PA),PA,demais municipios,A,28528
+5,1503705,Itupiranga (PA),PA,demais municipios,A,23892
+5,1504703,Moju (PA),PA,demais municipios,A,43815
+5,1504802,Monte Alegre (PA),PA,demais municipios,A,34025
+5,1505064,Novo Repartimento (PA),PA,demais municipios,A,36675
+5,1505486,Pacajá (PA),PA,demais municipios,A,24374
+5,1506187,Rondon do Pará (PA),PA,demais municipios,A,21197
+5,1506203,Salinópolis (PA),PA,demais municipios,A,30184
+5,1507953,Tailândia (PA),PA,demais municipios,A,32342
+5,1508001,Tomé-Açu (PA),PA,demais municipios,A,32619
+5,1508159,Uruará (PA),PA,demais municipios,A,27116
+5,1508209,Vigia (PA),PA,demais municipios,A,24716
+5,1508308,Viseu (PA),PA,demais municipios,A,25200
+5,1505106,Óbidos (PA),PA,demais municipios,A,25679
+5,2504603,Conde (PB),PB,demais municipios,A,21546
+5,2512507,Queimadas (PB),PB,demais municipios,A,27104
+5,2515302,Sapé (PB),PB,demais municipios,A,25097
+5,2600054,Abreu e Lima (PE),PE,demais municipios,A,49084
+5,2602001,Bodocó (PE),PE,demais municipios,A,26143
+5,2602605,Brejo da Madre de Deus (PE),PE,demais municipios,A,33522
+5,2602803,Buíque (PE),PE,demais municipios,A,30118
+5,2605103,Custódia (PE),PE,demais municipios,A,24516
+5,2605301,Exu (PE),PE,demais municipios,A,21467
+5,2606804,Igarassu (PE),PE,demais municipios,A,60790
+5,2607604,Ilha de Itamaracá (PE),PE,demais municipios,A,28497
+5,2608800,Lajedo (PE),PE,demais municipios,A,24002
+5,2609402,Moreno (PE),PE,demais municipios,A,27932
+5,2609907,Ouricuri (PE),PE,demais municipios,A,44577
+5,2610608,Paudalho (PE),PE,demais municipios,A,27899
+5,2610905,Pesqueira (PE),PE,demais municipios,A,36683
+5,2612505,Santa Cruz do Capibaribe (PE),PE,demais municipios,A,57224
+5,2612604,Santa Maria da Boa Vista (PE),PE,demais municipios,A,21864
+5,2614105,Sertânia (PE),PE,demais municipios,A,20536
+5,2614204,Sirinhaém (PE),PE,demais municipios,A,20325
+5,2613008,São Bento do Una (PE),PE,demais municipios,A,31043
+5,2613107,São Caitano (PE),PE,demais municipios,A,26216
+5,2613503,São José do Belmonte (PE),PE,demais municipios,A,23049
+5,2613602,São José do Egito (PE),PE,demais municipios,A,23434
+5,2614600,Tabira (PE),PE,demais municipios,A,20888
+5,2615300,Timbaúba (PE),PE,demais municipios,A,23736
+5,2615409,Toritama (PE),PE,demais municipios,A,23713
+5,2600500,Águas Belas (PE),PE,demais municipios,A,27839
+5,2205508,José de Freitas (PI),PI,demais municipios,A,23589
+5,2205706,Luís Correia (PI),PI,demais municipios,A,20526
+5,2207900,Pedro II (PI),PI,demais municipios,A,22712
+5,2211100,União (PI),PI,demais municipios,A,24959
+5,4117602,Palmas (PR),PR,demais municipios,A,20408
+5,4120606,Prudentópolis (PR),PR,demais municipios,A,30829
+5,4125605,São Mateus do Sul (PR),PR,demais municipios,A,25386
+5,3300209,Araruama (RJ),RJ,demais municipios,A,98991
+5,3300258,Arraial do Cabo (RJ),RJ,demais municipios,A,30683
+5,3300803,Cachoeiras de Macacu (RJ),RJ,demais municipios,A,38303
+5,3301306,Casimiro de Abreu (RJ),RJ,demais municipios,A,30231
+5,3301850,Guapimirim (RJ),RJ,demais municipios,A,30990
+5,3301876,Iguaba Grande (RJ),RJ,demais municipios,A,24464
+5,3301900,Itaboraí (RJ),RJ,demais municipios,A,131844
+5,3302502,Magé (RJ),RJ,demais municipios,A,132459
+5,3303609,Paracambi (RJ),RJ,demais municipios,A,23837
+5,3303708,Paraíba do Sul (RJ),RJ,demais municipios,A,22864
+5,3304755,São Francisco de Itabapoana (RJ),RJ,demais municipios,A,45424
+5,3304904,São Gonçalo (RJ),RJ,demais municipios,A,479498
+5,3305000,São João da Barra (RJ),RJ,demais municipios,A,38304
+5,3305208,São Pedro da Aldeia (RJ),RJ,demais municipios,A,68759
+5,2402600,Ceará-Mirim (RN),RN,demais municipios,A,40619
+5,2408201,Nísia Floresta (RN),RN,demais municipios,A,23443
+5,2412203,São José de Mipibu (RN),RN,demais municipios,A,25196
+5,4300406,Alegrete (RS),RS,demais municipios,A,41833
+5,4301636,Balneário Pinhal (RS),RS,demais municipios,A,20774
+5,4304200,Candelária (RS),RS,demais municipios,A,21168
+5,4304507,Canguçu (RS),RS,demais municipios,A,35740
+5,4302808,Caçapava do Sul (RS),RS,demais municipios,A,23912
+5,4306601,Dom Pedrito (RS),RS,demais municipios,A,21959
+5,4316402,Rosário do Sul (RS),RS,demais municipios,A,20284
+5,4317301,Santa Vitória do Palmar (RS),RS,demais municipios,A,24076
+5,4317608,Santo Antônio da Patrulha (RS),RS,demais municipios,A,27892
+5,4318804,São Lourenço do Sul (RS),RS,demais municipios,A,25553
+5,4203808,Canoinhas (SC),SC,demais municipios,A,28559
+5,2800605,Barra dos Coqueiros (SE),SE,demais municipios,A,23963
+5,2803005,Itabaianinha (SE),SE,demais municipios,A,24044
+5,2803203,Itaporanga d'Ajuda (SE),SE,demais municipios,A,22793
+5,2805406,Poço Redondo (SE),SE,demais municipios,A,22668
+5,3520301,Iguape (SP),SP,demais municipios,A,21460
+5,3544103,Rio Grande da Serra (SP),SP,demais municipios,A,20619

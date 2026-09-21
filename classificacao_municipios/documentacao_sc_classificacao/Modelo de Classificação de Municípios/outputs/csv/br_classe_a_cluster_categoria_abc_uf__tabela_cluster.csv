@@ -1,0 +1,146 @@
+Cluster x categoria x classe ABC x UF - BR classe A sem capital de UF e conurbados,,,,
+Total de municípios no universo: 825 | Total de domicílios no universo: 43667223,,,,
+,,,,
+Cluster,Categoria,Classe ABC,UF,Quantidade de municípios
+1,capital de imediata,A,SP,1
+1,demais municipios,A,SP,2
+2,capital de intermediaria,A,BA,1
+2,capital de intermediaria,A,CE,1
+2,capital de intermediaria,A,ES,2
+2,capital de intermediaria,A,MG,9
+2,capital de intermediaria,A,PR,5
+2,capital de intermediaria,A,RJ,4
+2,capital de intermediaria,A,RN,1
+2,capital de intermediaria,A,RS,5
+2,capital de intermediaria,A,SC,6
+2,capital de intermediaria,A,SP,8
+2,capital de imediata,A,ES,1
+2,capital de imediata,A,MG,25
+2,capital de imediata,A,PR,13
+2,capital de imediata,A,RJ,5
+2,capital de imediata,A,RS,14
+2,capital de imediata,A,SC,10
+2,capital de imediata,A,SP,29
+2,demais municipios,A,BA,2
+2,demais municipios,A,ES,5
+2,demais municipios,A,MG,23
+2,demais municipios,A,PE,1
+2,demais municipios,A,PR,13
+2,demais municipios,A,RJ,11
+2,demais municipios,A,RS,15
+2,demais municipios,A,SC,20
+2,demais municipios,A,SP,69
+3,capital de intermediaria,A,AC,1
+3,capital de intermediaria,A,AM,2
+3,capital de intermediaria,A,BA,1
+3,capital de intermediaria,A,GO,5
+3,capital de intermediaria,A,MG,1
+3,capital de intermediaria,A,MS,2
+3,capital de intermediaria,A,MT,4
+3,capital de intermediaria,A,PA,1
+3,capital de intermediaria,A,PI,1
+3,capital de intermediaria,A,RO,1
+3,capital de intermediaria,A,TO,2
+3,capital de imediata,A,AM,4
+3,capital de imediata,A,BA,1
+3,capital de imediata,A,GO,9
+3,capital de imediata,A,MA,1
+3,capital de imediata,A,MG,7
+3,capital de imediata,A,MS,6
+3,capital de imediata,A,MT,7
+3,capital de imediata,A,PA,3
+3,capital de imediata,A,PR,4
+3,capital de imediata,A,RO,4
+3,capital de imediata,A,SP,6
+3,capital de imediata,A,TO,2
+3,demais municipios,A,AM,5
+3,demais municipios,A,BA,5
+3,demais municipios,A,GO,16
+3,demais municipios,A,MG,5
+3,demais municipios,A,MS,2
+3,demais municipios,A,MT,4
+3,demais municipios,A,PA,4
+3,demais municipios,A,PR,1
+3,demais municipios,A,RO,4
+3,demais municipios,A,SP,1
+4,capital de intermediaria,A,AL,1
+4,capital de intermediaria,A,CE,1
+4,capital de intermediaria,A,MG,1
+4,capital de intermediaria,A,PA,1
+4,capital de intermediaria,A,PB,1
+4,capital de intermediaria,A,PE,1
+4,capital de intermediaria,A,RS,1
+4,capital de intermediaria,A,SP,2
+4,capital de imediata,A,AL,2
+4,capital de imediata,A,BA,4
+4,capital de imediata,A,CE,2
+4,capital de imediata,A,ES,2
+4,capital de imediata,A,MA,1
+4,capital de imediata,A,MG,1
+4,capital de imediata,A,PA,1
+4,capital de imediata,A,PB,1
+4,capital de imediata,A,PE,3
+4,capital de imediata,A,PI,1
+4,capital de imediata,A,RJ,4
+4,capital de imediata,A,RN,1
+4,capital de imediata,A,RS,2
+4,capital de imediata,A,SC,1
+4,capital de imediata,A,SE,1
+4,capital de imediata,A,SP,3
+4,demais municipios,A,BA,7
+4,demais municipios,A,CE,3
+4,demais municipios,A,MG,1
+4,demais municipios,A,PA,5
+4,demais municipios,A,PE,5
+4,demais municipios,A,PR,1
+4,demais municipios,A,RJ,2
+4,demais municipios,A,RN,1
+4,demais municipios,A,RS,5
+4,demais municipios,A,SC,2
+4,demais municipios,A,SE,3
+4,demais municipios,A,SP,20
+5,capital de intermediaria,A,BA,7
+5,capital de intermediaria,A,CE,3
+5,capital de intermediaria,A,ES,1
+5,capital de intermediaria,A,MA,4
+5,capital de intermediaria,A,MG,1
+5,capital de intermediaria,A,PA,4
+5,capital de intermediaria,A,PB,2
+5,capital de intermediaria,A,PE,2
+5,capital de intermediaria,A,PI,3
+5,capital de intermediaria,A,RN,1
+5,capital de intermediaria,A,RS,1
+5,capital de intermediaria,A,SE,1
+5,capital de imediata,A,AL,4
+5,capital de imediata,A,BA,17
+5,capital de imediata,A,CE,9
+5,capital de imediata,A,MA,11
+5,capital de imediata,A,MG,13
+5,capital de imediata,A,PA,7
+5,capital de imediata,A,PB,3
+5,capital de imediata,A,PE,11
+5,capital de imediata,A,PI,4
+5,capital de imediata,A,PR,1
+5,capital de imediata,A,RN,2
+5,capital de imediata,A,RS,6
+5,capital de imediata,A,SC,1
+5,capital de imediata,A,SE,2
+5,demais municipios,A,AL,3
+5,demais municipios,A,BA,47
+5,demais municipios,A,CE,31
+5,demais municipios,A,ES,4
+5,demais municipios,A,MA,5
+5,demais municipios,A,MG,11
+5,demais municipios,A,PA,17
+5,demais municipios,A,PB,3
+5,demais municipios,A,PE,25
+5,demais municipios,A,PI,4
+5,demais municipios,A,PR,3
+5,demais municipios,A,RJ,14
+5,demais municipios,A,RN,3
+5,demais municipios,A,RS,10
+5,demais municipios,A,SC,1
+5,demais municipios,A,SE,4
+5,demais municipios,A,SP,2
+,,,,
+"Tabela consolidada a partir da base municipal do modelo final, já filtrada pelos universos definidos no relatório.",,,,

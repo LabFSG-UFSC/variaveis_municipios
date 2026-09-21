@@ -1,0 +1,295 @@
+"Municípios, cluster, categoria, classe ABC e UF - SC todos",,,,,,
+Tabela em formato longo: cada linha corresponde a um município classificado no universo analisado.,,,,,,
+,,,,,,
+Cluster,Código do município,Município,UF,Categoria,Classe ABC,Domicílios CNEFE
+1,4208203,Itajaí (SC),SC,capital de imediata,A,123670
+1,4209003,Joaçaba (SC),SC,capital de imediata,B,17454
+1,4217204,São Miguel do Oeste (SC),SC,capital de imediata,A,23017
+1,4218707,Tubarão (SC),SC,capital de imediata,A,58036
+1,4202404,Blumenau (SC),SC,capital de intermediaria,A,175212
+1,4204202,Chapecó (SC),SC,capital de intermediaria,A,118788
+1,4204608,Criciúma (SC),SC,capital de intermediaria,A,104585
+1,4209102,Joinville (SC),SC,capital de intermediaria,A,280866
+1,4209300,Lages (SC),SC,capital de intermediaria,A,82327
+1,4202008,Balneário Camboriú (SC),SC,demais municipios,A,97348
+1,4208302,Itapema (SC),SC,demais municipios,A,58248
+1,4208906,Jaraguá do Sul (SC),SC,demais municipios,A,87205
+2,4201406,Araranguá (SC),SC,capital de imediata,A,39805
+2,4202909,Brusque (SC),SC,capital de imediata,A,65812
+2,4200903,Angelina (SC),SC,demais municipios,C,4759
+2,4201109,Anitápolis (SC),SC,demais municipios,C,3151
+2,4201208,Antônio Carlos (SC),SC,demais municipios,C,5845
+2,4201307,Araquari (SC),SC,demais municipios,A,23304
+2,4201505,Armazém (SC),SC,demais municipios,C,5224
+2,4201950,Balneário Arroio do Silva (SC),SC,demais municipios,B,17398
+2,4202057,Balneário Barra do Sul (SC),SC,demais municipios,B,12932
+2,4202073,Balneário Gaivota (SC),SC,demais municipios,B,14459
+2,4212809,Balneário Piçarras (SC),SC,demais municipios,A,21501
+2,4220000,Balneário Rincão (SC),SC,demais municipios,B,17129
+2,4202107,Barra Velha (SC),SC,demais municipios,A,33482
+2,4202503,Bom Jardim da Serra (SC),SC,demais municipios,C,3887
+2,4202453,Bombinhas (SC),SC,demais municipios,A,27341
+2,4202701,Botuverá (SC),SC,demais municipios,C,3511
+2,4202800,Braço do Norte (SC),SC,demais municipios,B,16523
+2,4203204,Camboriú (SC),SC,demais municipios,A,47398
+2,4203303,Campo Alegre (SC),SC,demais municipios,C,7580
+2,4203709,Canelinha (SC),SC,demais municipios,C,7915
+2,4203956,Capivari de Baixo (SC),SC,demais municipios,C,10999
+2,4204251,Cocal do Sul (SC),SC,demais municipios,C,8471
+2,4205191,Ermo (SC),SC,demais municipios,C,1357
+2,4205456,Forquilhinha (SC),SC,demais municipios,B,14256
+2,4205704,Garopaba (SC),SC,demais municipios,A,22075
+2,4205803,Garuva (SC),SC,demais municipios,C,9939
+2,4205902,Gaspar (SC),SC,demais municipios,A,34952
+2,4206009,Governador Celso Ramos (SC),SC,demais municipios,B,14407
+2,4206207,Gravatal (SC),SC,demais municipios,C,6810
+2,4206306,Guabiruba (SC),SC,demais municipios,B,12138
+2,4206504,Guaramirim (SC),SC,demais municipios,A,21393
+2,4207106,Ilhota (SC),SC,demais municipios,C,8597
+2,4207304,Imbituba (SC),SC,demais municipios,A,36270
+2,4208450,Itapoá (SC),SC,demais municipios,A,30625
+2,4207007,Içara (SC),SC,demais municipios,A,29089
+2,4208708,Jacinto Machado (SC),SC,demais municipios,C,7149
+2,4208807,Jaguaruna (SC),SC,demais municipios,A,28749
+2,4209409,Laguna (SC),SC,demais municipios,A,31247
+2,4209607,Lauro Müller (SC),SC,demais municipios,C,7834
+2,4210001,Luiz Alves (SC),SC,demais municipios,C,6734
+2,4210209,Major Gercino (SC),SC,demais municipios,C,2529
+2,4210407,Maracajá (SC),SC,demais municipios,C,3758
+2,4210605,Massaranduba (SC),SC,demais municipios,C,9224
+2,4210803,Meleiro (SC),SC,demais municipios,C,4375
+2,4211256,Morro Grande (SC),SC,demais municipios,C,2023
+2,4211207,Morro da Fumaça (SC),SC,demais municipios,C,9432
+2,4211306,Navegantes (SC),SC,demais municipios,A,46534
+2,4211504,Nova Trento (SC),SC,demais municipios,C,8076
+2,4211603,Nova Veneza (SC),SC,demais municipios,C,7455
+2,4211702,Orleans (SC),SC,demais municipios,B,13166
+2,4212254,Passo de Torres (SC),SC,demais municipios,C,11634
+2,4212304,Paulo Lopes (SC),SC,demais municipios,C,5917
+2,4212403,Pedras Grandes (SC),SC,demais municipios,C,2785
+2,4212502,Penha (SC),SC,demais municipios,A,23822
+2,4212650,Pescaria Brava (SC),SC,demais municipios,C,5216
+2,4213203,Pomerode (SC),SC,demais municipios,B,15469
+2,4213500,Porto Belo (SC),SC,demais municipios,B,17428
+2,4213807,Praia Grande (SC),SC,demais municipios,C,5550
+2,4214300,Rancho Queimado (SC),SC,demais municipios,C,3352
+2,4214904,Rio Fortuna (SC),SC,demais municipios,C,3033
+2,4215455,Sangão (SC),SC,demais municipios,C,5764
+2,4215604,Santa Rosa de Lima (SC),SC,demais municipios,C,1417
+2,4215653,Santa Rosa do Sul (SC),SC,demais municipios,C,5810
+2,4215703,Santo Amaro da Imperatriz (SC),SC,demais municipios,B,14803
+2,4217402,Schroeder (SC),SC,demais municipios,C,9080
+2,4217600,Siderópolis (SC),SC,demais municipios,C,7540
+2,4217709,Sombrio (SC),SC,demais municipios,B,15941
+2,4215901,São Bonifácio (SC),SC,demais municipios,C,2606
+2,4216206,São Francisco do Sul (SC),SC,demais municipios,A,44014
+2,4216305,São João Batista (SC),SC,demais municipios,B,16228
+2,4216354,São João do Itaperiú (SC),SC,demais municipios,C,2545
+2,4216404,São João do Sul (SC),SC,demais municipios,C,6413
+2,4217006,São Ludgero (SC),SC,demais municipios,C,6577
+2,4217105,São Martinho (SC),SC,demais municipios,C,2290
+2,4217253,São Pedro de Alcântara (SC),SC,demais municipios,C,3119
+2,4218004,Tijucas (SC),SC,demais municipios,A,25364
+2,4218103,Timbé do Sul (SC),SC,demais municipios,C,3772
+2,4218350,Treviso (SC),SC,demais municipios,C,2265
+2,4218400,Treze de Maio (SC),SC,demais municipios,C,4734
+2,4218806,Turvo (SC),SC,demais municipios,C,7481
+2,4219002,Urussanga (SC),SC,demais municipios,C,11206
+2,4200606,Águas Mornas (SC),SC,demais municipios,C,4966
+3,4204301,Concórdia (SC),SC,capital de imediata,A,42025
+3,4204806,Curitibanos (SC),SC,capital de imediata,A,20568
+3,4210506,Maravilha (SC),SC,capital de imediata,B,14941
+3,4214805,Rio do Sul (SC),SC,capital de imediata,A,36358
+3,4216909,São Lourenço do Oeste (SC),SC,capital de imediata,B,13086
+3,4219309,Videira (SC),SC,capital de imediata,A,28873
+3,4219507,Xanxerê (SC),SC,capital de imediata,A,25735
+3,4203006,Caçador (SC),SC,capital de intermediaria,A,35681
+3,4200101,Abelardo Luz (SC),SC,demais municipios,C,9568
+3,4200200,Agrolândia (SC),SC,demais municipios,C,5806
+3,4200309,Agronômica (SC),SC,demais municipios,C,3553
+3,4200754,Alto Bela Vista (SC),SC,demais municipios,C,1525
+3,4200804,Anchieta (SC),SC,demais municipios,C,3938
+3,4201273,Arabutã (SC),SC,demais municipios,C,3044
+3,4201604,Arroio Trinta (SC),SC,demais municipios,C,2417
+3,4201653,Arvoredo (SC),SC,demais municipios,C,1793
+3,4201802,Atalanta (SC),SC,demais municipios,C,2050
+3,4202099,Barra Bonita (SC),SC,demais municipios,C,1269
+3,4202537,Bom Jesus (SC),SC,demais municipios,C,1503
+3,4202578,Bom Jesus do Oeste (SC),SC,demais municipios,C,1327
+3,4202859,Braço do Trombudo (SC),SC,demais municipios,C,2107
+3,4203105,Caibi (SC),SC,demais municipios,C,3826
+3,4203600,Campos Novos (SC),SC,demais municipios,B,19939
+3,4203907,Capinzal (SC),SC,demais municipios,B,12279
+3,4204004,Catanduvas (SC),SC,demais municipios,C,5198
+3,4204103,Caxambu do Sul (SC),SC,demais municipios,C,3023
+3,4204350,Cordilheira Alta (SC),SC,demais municipios,C,3025
+3,4204400,Coronel Freitas (SC),SC,demais municipios,C,6400
+3,4204707,Cunha Porã (SC),SC,demais municipios,C,6675
+3,4204756,Cunhataí (SC),SC,demais municipios,C,1276
+3,4204905,Descanso (SC),SC,demais municipios,C,5258
+3,4205001,Dionísio Cerqueira (SC),SC,demais municipios,C,9014
+3,4205100,Dona Emma (SC),SC,demais municipios,C,2694
+3,4205209,Erval Velho (SC),SC,demais municipios,C,3323
+3,4205308,Faxinal dos Guedes (SC),SC,demais municipios,C,5877
+3,4205357,Flor do Sertão (SC),SC,demais municipios,C,1269
+3,4205431,Formosa do Sul (SC),SC,demais municipios,C,1630
+3,4205506,Fraiburgo (SC),SC,demais municipios,B,16840
+3,4205605,Galvão (SC),SC,demais municipios,C,1671
+3,4206405,Guaraciaba (SC),SC,demais municipios,C,6496
+3,4206603,Guarujá do Sul (SC),SC,demais municipios,C,3010
+3,4206652,Guatambú (SC),SC,demais municipios,C,4845
+3,4206702,Herval d'Oeste (SC),SC,demais municipios,C,10640
+3,4206751,Ibiam (SC),SC,demais municipios,C,1220
+3,4206801,Ibicaré (SC),SC,demais municipios,C,2534
+3,4207577,Iomerê (SC),SC,demais municipios,C,2051
+3,4207601,Ipira (SC),SC,demais municipios,C,3197
+3,4207650,Iporã do Oeste (SC),SC,demais municipios,C,5539
+3,4207700,Ipumirim (SC),SC,demais municipios,C,4287
+3,4207759,Iraceminha (SC),SC,demais municipios,C,2794
+3,4208401,Itapiranga (SC),SC,demais municipios,C,8703
+3,4208005,Itá (SC),SC,demais municipios,C,4340
+3,4208609,Jaborá (SC),SC,demais municipios,C,2611
+3,4208955,Jardinópolis (SC),SC,demais municipios,C,1063
+3,4209201,Lacerdópolis (SC),SC,demais municipios,C,1349
+3,4209458,Lajeado Grande (SC),SC,demais municipios,C,1017
+3,4209508,Laurentino (SC),SC,demais municipios,C,4137
+3,4209854,Lindóia do Sul (SC),SC,demais municipios,C,2678
+3,4210035,Luzerna (SC),SC,demais municipios,C,3414
+3,4210555,Marema (SC),SC,demais municipios,C,1293
+3,4210902,Modelo (SC),SC,demais municipios,C,2369
+3,4211009,Mondaí (SC),SC,demais municipios,C,6009
+3,4211405,Nova Erechim (SC),SC,demais municipios,C,2706
+3,4211454,Nova Itaberaba (SC),SC,demais municipios,C,2797
+3,4211751,Otacílio Costa (SC),SC,demais municipios,C,9032
+3,4211801,Ouro (SC),SC,demais municipios,C,4345
+3,4211876,Paial (SC),SC,demais municipios,C,1354
+3,4212007,Palma Sola (SC),SC,demais municipios,C,4554
+3,4212056,Palmeira (SC),SC,demais municipios,C,2222
+3,4212106,Palmitos (SC),SC,demais municipios,C,9995
+3,4212270,Passos Maia (SC),SC,demais municipios,C,2462
+3,4212601,Peritiba (SC),SC,demais municipios,C,2001
+3,4212908,Pinhalzinho (SC),SC,demais municipios,C,11022
+3,4213005,Pinheiro Preto (SC),SC,demais municipios,C,1735
+3,4213104,Piratuba (SC),SC,demais municipios,C,4751
+3,4213153,Planalto Alegre (SC),SC,demais municipios,C,1906
+3,4213401,Ponte Serrada (SC),SC,demais municipios,C,5526
+3,4213609,Porto União (SC),SC,demais municipios,B,16820
+3,4213708,Pouso Redondo (SC),SC,demais municipios,C,9223
+3,4213906,Presidente Castello Branco (SC),SC,demais municipios,C,1110
+3,4214003,Presidente Getúlio (SC),SC,demais municipios,C,10567
+3,4214151,Princesa (SC),SC,demais municipios,C,1809
+3,4214201,Quilombo (SC),SC,demais municipios,C,6125
+3,4215075,Riqueza (SC),SC,demais municipios,C,3181
+3,4215307,Salete (SC),SC,demais municipios,C,4545
+3,4215406,Salto Veloso (SC),SC,demais municipios,C,2546
+3,4215695,Santiago do Sul (SC),SC,demais municipios,C,984
+3,4217303,Saudades (SC),SC,demais municipios,C,5684
+3,4217501,Seara (SC),SC,demais municipios,C,10252
+3,4217550,Serra Alta (SC),SC,demais municipios,C,1947
+3,4216008,São Carlos (SC),SC,demais municipios,C,6037
+3,4216107,São Domingos (SC),SC,demais municipios,C,5393
+3,4216701,São José do Cedro (SC),SC,demais municipios,C,8165
+3,4216255,São João do Oeste (SC),SC,demais municipios,C,3953
+3,4217808,Taió (SC),SC,demais municipios,C,11032
+3,4217907,Tangará (SC),SC,demais municipios,C,4976
+3,4218509,Treze Tílias (SC),SC,demais municipios,C,4716
+3,4218608,Trombudo Central (SC),SC,demais municipios,C,3961
+3,4218756,Tunápolis (SC),SC,demais municipios,C,2863
+3,4219176,Vargem Bonita (SC),SC,demais municipios,C,2581
+3,4219101,Vargeão (SC),SC,demais municipios,C,2019
+3,4219606,Xavantina (SC),SC,demais municipios,C,2476
+3,4219705,Xaxim (SC),SC,demais municipios,B,15547
+3,4200408,Água Doce (SC),SC,demais municipios,C,4764
+3,4200556,Águas Frias (SC),SC,demais municipios,C,1716
+3,4200507,Águas de Chapecó (SC),SC,demais municipios,C,3880
+4,4206900,Ibirama (SC),SC,capital de imediata,C,10302
+4,4208500,Ituporanga (SC),SC,capital de imediata,B,15010
+4,4215802,São Bento do Sul (SC),SC,capital de imediata,A,39803
+4,4200705,Alfredo Wagner (SC),SC,demais municipios,C,10115
+4,4201257,Apiúna (SC),SC,demais municipios,C,5336
+4,4201703,Ascurra (SC),SC,demais municipios,C,4243
+4,4201901,Aurora (SC),SC,demais municipios,C,4309
+4,4202206,Benedito Novo (SC),SC,demais municipios,C,6276
+4,4202602,Bom Retiro (SC),SC,demais municipios,C,5976
+4,4204194,Chapadão do Lageado (SC),SC,demais municipios,C,2072
+4,4204509,Corupá (SC),SC,demais municipios,C,8892
+4,4205159,Doutor Pedrinho (SC),SC,demais municipios,C,2336
+4,4206108,Grão-Pará (SC),SC,demais municipios,C,4130
+4,4207403,Imbuia (SC),SC,demais municipios,C,4234
+4,4207502,Indaial (SC),SC,demais municipios,A,34854
+4,4209151,José Boiteux (SC),SC,demais municipios,C,3259
+4,4209805,Leoberto Leal (SC),SC,demais municipios,C,2796
+4,4209904,Lontras (SC),SC,demais municipios,C,7369
+4,4214102,Presidente Nereu (SC),SC,demais municipios,C,1811
+4,4215000,Rio Negrinho (SC),SC,demais municipios,B,18971
+4,4214706,Rio dos Cedros (SC),SC,demais municipios,C,6969
+4,4215109,Rodeio (SC),SC,demais municipios,C,6262
+4,4216503,São Joaquim (SC),SC,demais municipios,B,15895
+4,4218202,Timbó (SC),SC,demais municipios,A,21801
+4,4218905,Urubici (SC),SC,demais municipios,C,7935
+4,4219200,Vidal Ramos (SC),SC,demais municipios,C,4904
+5,4210100,Mafra (SC),SC,capital de imediata,A,29736
+5,4200051,Abdon Batista (SC),SC,demais municipios,C,2206
+5,4201000,Anita Garibaldi (SC),SC,demais municipios,C,6008
+5,4202081,Bandeirante (SC),SC,demais municipios,C,2047
+5,4202131,Bela Vista do Toldo (SC),SC,demais municipios,C,3682
+5,4202156,Belmonte (SC),SC,demais municipios,C,1546
+5,4202438,Bocaina do Sul (SC),SC,demais municipios,C,3010
+5,4202875,Brunópolis (SC),SC,demais municipios,C,1885
+5,4203154,Calmon (SC),SC,demais municipios,C,1865
+5,4203402,Campo Belo do Sul (SC),SC,demais municipios,C,5195
+5,4203501,Campo Erê (SC),SC,demais municipios,C,5473
+5,4203808,Canoinhas (SC),SC,demais municipios,A,28559
+5,4203253,Capão Alto (SC),SC,demais municipios,C,2694
+5,4204152,Celso Ramos (SC),SC,demais municipios,C,2166
+5,4204178,Cerro Negro (SC),SC,demais municipios,C,2709
+5,4204459,Coronel Martins (SC),SC,demais municipios,C,1453
+5,4204558,Correia Pinto (SC),SC,demais municipios,C,8578
+5,4205175,Entre Rios (SC),SC,demais municipios,C,1899
+5,4205555,Frei Rogério (SC),SC,demais municipios,C,1560
+5,4207205,Imaruí (SC),SC,demais municipios,C,9258
+5,4207684,Ipuaçu (SC),SC,demais municipios,C,3840
+5,4207809,Irani (SC),SC,demais municipios,C,5806
+5,4207858,Irati (SC),SC,demais municipios,C,1327
+5,4207908,Irineópolis (SC),SC,demais municipios,C,6301
+5,4208104,Itaiópolis (SC),SC,demais municipios,B,13018
+5,4209177,Jupiá (SC),SC,demais municipios,C,1669
+5,4209706,Lebon Régis (SC),SC,demais municipios,C,6691
+5,4210050,Macieira (SC),SC,demais municipios,C,1344
+5,4210308,Major Vieira (SC),SC,demais municipios,C,4518
+5,4210704,Matos Costa (SC),SC,demais municipios,C,1585
+5,4210852,Mirim Doce (SC),SC,demais municipios,C,1681
+5,4211058,Monte Carlo (SC),SC,demais municipios,C,4225
+5,4211108,Monte Castelo (SC),SC,demais municipios,C,4206
+5,4211652,Novo Horizonte (SC),SC,demais municipios,C,1756
+5,4211850,Ouro Verde (SC),SC,demais municipios,C,1418
+5,4211892,Painel (SC),SC,demais municipios,C,2415
+5,4212205,Papanduva (SC),SC,demais municipios,C,11157
+5,4212239,Paraíso (SC),SC,demais municipios,C,2876
+5,4212700,Petrolândia (SC),SC,demais municipios,C,4750
+5,4213302,Ponte Alta (SC),SC,demais municipios,C,2988
+5,4213351,Ponte Alta do Norte (SC),SC,demais municipios,C,1575
+5,4215059,Rio Rufino (SC),SC,demais municipios,C,2162
+5,4214409,Rio das Antas (SC),SC,demais municipios,C,4206
+5,4214508,Rio do Campo (SC),SC,demais municipios,C,4391
+5,4214607,Rio do Oeste (SC),SC,demais municipios,C,4542
+5,4215208,Romelândia (SC),SC,demais municipios,C,3394
+5,4215356,Saltinho (SC),SC,demais municipios,C,2404
+5,4215505,Santa Cecília (SC),SC,demais municipios,C,7532
+5,4215554,Santa Helena (SC),SC,demais municipios,C,1514
+5,4215679,Santa Terezinha (SC),SC,demais municipios,C,4892
+5,4215687,Santa Terezinha do Progresso (SC),SC,demais municipios,C,2105
+5,4217758,Sul Brasil (SC),SC,demais municipios,C,1764
+5,4215752,São Bernardino (SC),SC,demais municipios,C,1722
+5,4216057,São Cristóvão do Sul (SC),SC,demais municipios,C,2371
+5,4216800,São José do Cerrito (SC),SC,demais municipios,C,7001
+5,4217154,São Miguel da Boa Vista (SC),SC,demais municipios,C,1334
+5,4217956,Tigrinhos (SC),SC,demais municipios,C,1479
+5,4218251,Timbó Grande (SC),SC,demais municipios,C,4146
+5,4218301,Três Barras (SC),SC,demais municipios,C,9082
+5,4218855,União do Oeste (SC),SC,demais municipios,C,1885
+5,4218954,Urupema (SC),SC,demais municipios,C,2037
+5,4219150,Vargem (SC),SC,demais municipios,C,2015
+5,4219358,Vitor Meireles (SC),SC,demais municipios,C,3199
+5,4219408,Witmarsum (SC),SC,demais municipios,C,2941
+5,4219853,Zortéa (SC),SC,demais municipios,C,2347

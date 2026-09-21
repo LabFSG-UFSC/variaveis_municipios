@@ -1,0 +1,45 @@
+"Municípios, cluster, categoria, classe ABC e UF - SC classe A",,,,,,
+Tabela em formato longo: cada linha corresponde a um município classificado no universo analisado.,,,,,,
+,,,,,,
+Cluster,Código do município,Município,UF,Categoria,Classe ABC,Domicílios CNEFE
+1,4202008,Balneário Camboriú (SC),SC,demais municipios,A,97348
+1,4208302,Itapema (SC),SC,demais municipios,A,58248
+2,4201406,Araranguá (SC),SC,capital de imediata,A,39805
+2,4202909,Brusque (SC),SC,capital de imediata,A,65812
+2,4204301,Concórdia (SC),SC,capital de imediata,A,42025
+2,4204806,Curitibanos (SC),SC,capital de imediata,A,20568
+2,4210100,Mafra (SC),SC,capital de imediata,A,29736
+2,4214805,Rio do Sul (SC),SC,capital de imediata,A,36358
+2,4217204,São Miguel do Oeste (SC),SC,capital de imediata,A,23017
+2,4218707,Tubarão (SC),SC,capital de imediata,A,58036
+2,4219309,Videira (SC),SC,capital de imediata,A,28873
+2,4219507,Xanxerê (SC),SC,capital de imediata,A,25735
+2,4202404,Blumenau (SC),SC,capital de intermediaria,A,175212
+2,4203006,Caçador (SC),SC,capital de intermediaria,A,35681
+2,4204608,Criciúma (SC),SC,capital de intermediaria,A,104585
+2,4209102,Joinville (SC),SC,capital de intermediaria,A,280866
+2,4212809,Balneário Piçarras (SC),SC,demais municipios,A,21501
+2,4202107,Barra Velha (SC),SC,demais municipios,A,33482
+2,4202453,Bombinhas (SC),SC,demais municipios,A,27341
+2,4203204,Camboriú (SC),SC,demais municipios,A,47398
+2,4203808,Canoinhas (SC),SC,demais municipios,A,28559
+2,4205704,Garopaba (SC),SC,demais municipios,A,22075
+2,4205902,Gaspar (SC),SC,demais municipios,A,34952
+2,4206504,Guaramirim (SC),SC,demais municipios,A,21393
+2,4207304,Imbituba (SC),SC,demais municipios,A,36270
+2,4208450,Itapoá (SC),SC,demais municipios,A,30625
+2,4207007,Içara (SC),SC,demais municipios,A,29089
+2,4208807,Jaguaruna (SC),SC,demais municipios,A,28749
+2,4208906,Jaraguá do Sul (SC),SC,demais municipios,A,87205
+2,4209409,Laguna (SC),SC,demais municipios,A,31247
+2,4211306,Navegantes (SC),SC,demais municipios,A,46534
+2,4212502,Penha (SC),SC,demais municipios,A,23822
+2,4218004,Tijucas (SC),SC,demais municipios,A,25364
+3,4215802,São Bento do Sul (SC),SC,capital de imediata,A,39803
+3,4207502,Indaial (SC),SC,demais municipios,A,34854
+3,4218202,Timbó (SC),SC,demais municipios,A,21801
+4,4208203,Itajaí (SC),SC,capital de imediata,A,123670
+4,4201307,Araquari (SC),SC,demais municipios,A,23304
+4,4216206,São Francisco do Sul (SC),SC,demais municipios,A,44014
+5,4204202,Chapecó (SC),SC,capital de intermediaria,A,118788
+5,4209300,Lages (SC),SC,capital de intermediaria,A,82327

@@ -1,0 +1,15 @@
+Cluster x categoria x classe ABC x UF - SC classe A sem capital de UF e conurbados,,,,
+Total de municípios no universo: 41 | Total de domicílios no universo: 2186072,,,,
+,,,,
+Cluster,Categoria,Classe ABC,UF,Quantidade de municípios
+1,demais municipios,A,SC,2
+2,capital de intermediaria,A,SC,4
+2,capital de imediata,A,SC,10
+2,demais municipios,A,SC,17
+3,capital de imediata,A,SC,1
+3,demais municipios,A,SC,2
+4,capital de imediata,A,SC,1
+4,demais municipios,A,SC,2
+5,capital de intermediaria,A,SC,2
+,,,,
+"Tabela consolidada a partir da base municipal do modelo final, já filtrada pelos universos definidos no relatório.",,,,
